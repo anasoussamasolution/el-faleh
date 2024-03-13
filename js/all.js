@@ -1,1 +1,877 @@
-function _0x45e6(_0x56cd91,_0x1e5f74){var _0x57315e=_0x5731();return _0x45e6=function(_0x45e69d,_0x4d3c13){_0x45e69d=_0x45e69d-0x19c;var _0x517864=_0x57315e[_0x45e69d];return _0x517864;},_0x45e6(_0x56cd91,_0x1e5f74);}(function(_0x2467b3,_0x40308e){var _0x147be8=_0x45e6,_0xeb7dc7=_0x2467b3();while(!![]){try{var _0xa0b77c=-parseInt(_0x147be8(0x1c5))/0x1+-parseInt(_0x147be8(0x272))/0x2+parseInt(_0x147be8(0x1fb))/0x3*(parseInt(_0x147be8(0x202))/0x4)+-parseInt(_0x147be8(0x257))/0x5+-parseInt(_0x147be8(0x20d))/0x6*(-parseInt(_0x147be8(0x1ca))/0x7)+parseInt(_0x147be8(0x1bf))/0x8*(-parseInt(_0x147be8(0x1a6))/0x9)+parseInt(_0x147be8(0x21d))/0xa;if(_0xa0b77c===_0x40308e)break;else _0xeb7dc7['push'](_0xeb7dc7['shift']());}catch(_0x40501e){_0xeb7dc7['push'](_0xeb7dc7['shift']());}}}(_0x5731,0x3faf0),jQuery(function(_0x529635){'use strict';var _0x1b1301=_0x45e6;var _0x484d78=[],_0x2a63d1,_0x555d9c,_0x4bf56b,_0x10a169,_0x765e5a=0x1e0,_0x43d2da=0x300,_0x33fb02=0x3e0,_0x32fecc=0x4b0,_0x3fd0bb=0x640,_0x30ec7c=navigator[_0x1b1301(0x23f)]['match'](/Android/i)||navigator[_0x1b1301(0x23f)][_0x1b1301(0x243)](/webOS/i)||navigator[_0x1b1301(0x23f)][_0x1b1301(0x243)](/iPhone/i)||navigator[_0x1b1301(0x23f)][_0x1b1301(0x243)](/iPad/i)||navigator[_0x1b1301(0x23f)][_0x1b1301(0x243)](/iPod/i),_0x2d853f=_0x529635(_0x1b1301(0x26d))[_0x1b1301(0x213)]();function _0x11aaf9(){var _0x4cb9ab=_0x1b1301;_0x2a63d1=_0x529635(window)[_0x4cb9ab(0x22e)](),_0x555d9c=_0x529635(window)['height'](),_0x529635(window)[_0x4cb9ab(0x22e)]()>0x3e0?_0x529635(_0x4cb9ab(0x200))['css']({'margin-bottom':_0x2d853f-0x1}):_0x529635(_0x4cb9ab(0x200))['css']({'margin-bottom':'0'});}_0x11aaf9();_0x30ec7c&&(_0x529635('body')[_0x1b1301(0x209)](_0x1b1301(0x27a)),_0x529635(_0x1b1301(0x204))['removeClass']('data-jarallax'));_0x529635(window)[_0x1b1301(0x22e)]()<0x4b0&&_0x529635(_0x1b1301(0x231))['each'](function(){var _0x2aabd7=_0x1b1301;_0x529635(this)[_0x2aabd7(0x212)](_0x2aabd7(0x1de));});_0x291544();_0x529635(_0x1b1301(0x205))['length']&&setTimeout(function(){_0x57e595();},0x3e8);_0x529635(_0x1b1301(0x1c6))[_0x1b1301(0x24d)]();var _0x4806ae=window['navigator'][_0x1b1301(0x23f)],_0x30fe0c=_0x4806ae[_0x1b1301(0x23a)](_0x1b1301(0x27b));(_0x30fe0c>0x0||!!navigator[_0x1b1301(0x23f)][_0x1b1301(0x243)](/Trident.*rv\:11\./))&&_0x529635(_0x1b1301(0x1c2))[_0x1b1301(0x212)](_0x1b1301(0x250))[_0x1b1301(0x209)]('fix');function _0x19aaaf(_0x573c2e){var _0x4022e6=_0x1b1301;if(_0x2a63d1>=_0x3fd0bb)return parseInt(_0x573c2e[_0x4022e6(0x1e4)](_0x4022e6(0x230)),0xa);else{if(_0x2a63d1>=_0x32fecc)return parseInt(_0x573c2e['attr']('data-lg-slides'),0xa);else{if(_0x2a63d1>=_0x33fb02)return parseInt(_0x573c2e[_0x4022e6(0x1e4)]('data-md-slides'),0xa);else{if(_0x2a63d1>=_0x43d2da)return parseInt(_0x573c2e['attr'](_0x4022e6(0x269)),0xa);else return parseInt(_0x573c2e[_0x4022e6(0x1e4)](_0x4022e6(0x1b4)),0xa);}}}}function _0x3ca3f2(){var _0x5e6e68=_0x1b1301;_0x11aaf9(),_0x529635(_0x5e6e68(0x1c4))[_0x5e6e68(0x1fd)](function(){var _0x38d84a=_0x5e6e68,_0x3548ba=_0x484d78[_0x38d84a(0x24a)+_0x529635(this)[_0x38d84a(0x1e4)]('id')],_0x3c64f2=_0x529635(this),_0xeb66fe=_0x19aaaf(_0x3c64f2),_0x2e1912=_0x3548ba[_0x38d84a(0x1e3)][_0x38d84a(0x1a3)];_0x3548ba[_0x38d84a(0x1e3)][_0x38d84a(0x1e2)]=_0xeb66fe,_0x3548ba[_0x38d84a(0x1b1)]();if(!_0x2e1912){var _0x37e0ce=_0x3c64f2[_0x38d84a(0x255)](_0x38d84a(0x237)),_0x4bf2a1=_0x37e0ce[_0x38d84a(0x277)]()['slice'](0x0,_0x37e0ce[_0x38d84a(0x22b)]+0x1-_0xeb66fe);if(_0x4bf2a1[_0x38d84a(0x22b)]<=0x1||_0xeb66fe>=_0x3c64f2[_0x38d84a(0x255)](_0x38d84a(0x1f4))[_0x38d84a(0x22b)])_0x3c64f2['addClass']('pagination-hidden');else _0x3c64f2[_0x38d84a(0x20b)]('pagination-hidden');_0x4bf2a1[_0x38d84a(0x267)]();}});}!_0x30ec7c?_0x529635(window)[_0x1b1301(0x1eb)](function(){_0x3ca3f2();}):window['addEventListener'](_0x1b1301(0x221),function(){_0x3ca3f2();},![]);function _0x291544(){var _0x568c7c=_0x1b1301,_0x11a379=0x0;_0x529635(_0x568c7c(0x231))[_0x568c7c(0x1fd)](function(){var _0x5681a8=_0x568c7c,_0x45cb5f=_0x529635(this),_0x52c8ca=_0x5681a8(0x27d)+_0x11a379;_0x45cb5f[_0x5681a8(0x209)](_0x5681a8(0x24a)+_0x52c8ca+_0x5681a8(0x26e))['attr']('id',_0x52c8ca),_0x45cb5f[_0x5681a8(0x255)](_0x5681a8(0x19f))[_0x5681a8(0x209)](_0x5681a8(0x215)+_0x52c8ca);var _0x1ec924=parseInt(_0x45cb5f[_0x5681a8(0x1e4)](_0x5681a8(0x220)),0xa),_0x29268b=_0x45cb5f[_0x5681a8(0x1e4)](_0x5681a8(0x214)),_0x5a3e25=_0x45cb5f[_0x5681a8(0x1e4)](_0x5681a8(0x1cd));_0x5a3e25==_0x5681a8(0x1a5)&&(_0x5a3e25=_0x19aaaf(_0x45cb5f));var _0x9ab459=_0x45cb5f[_0x5681a8(0x1e4)](_0x5681a8(0x1d4)),_0x162c3b=parseInt(_0x45cb5f[_0x5681a8(0x1e4)](_0x5681a8(0x1ed)),0xa),_0x4e578b=parseInt(_0x45cb5f['attr'](_0x5681a8(0x1de)),0xa),_0x14e65c=parseInt(_0x45cb5f['attr'](_0x5681a8(0x263)),0xa),_0x426409=parseInt(_0x45cb5f[_0x5681a8(0x1e4)](_0x5681a8(0x1d1)),0xa),_0x45f5d3=parseInt(_0x45cb5f[_0x5681a8(0x1e4)](_0x5681a8(0x1c9)),0xa),_0x529e46=parseInt(_0x45cb5f['attr'](_0x5681a8(0x1fe)),0xa);_0x484d78[_0x5681a8(0x24a)+_0x52c8ca]=new Swiper(_0x5681a8(0x251)+_0x52c8ca,{'speed':_0x14e65c,'pagination':_0x5681a8(0x1b8)+_0x52c8ca,'paginationHide':![],'loop':_0x162c3b,'paginationClickable':!![],'autoplay':_0x1ec924,'slidesPerView':_0x5a3e25,'keyboardControl':!![],'simulateTouch':!![],'centeredSlides':_0x426409,'effect':_0x29268b,'coverflow':{'rotate':0x32,'stretch':0x0,'depth':0x64,'modifier':0x1,'slideShadows':![]},'direction':_0x9ab459,'freeMode':_0x45f5d3,'updateTranslate':!![],'observer':!![],'parallax':_0x4e578b,'preventClicks':!![],'longSwipesRatio':0.1,'spaceBetween':_0x45cb5f['is'](_0x5681a8(0x1c1))?parseInt(_0x45cb5f[_0x5681a8(0x235)](_0x5681a8(0x1ad)),0xa):0x0,'onSlideChangeStart':function(_0x43bdbe){var _0x4c75ba=_0x5681a8,_0xb05ce8=_0x162c3b===0x1?_0x43bdbe['activeLoopIndex']:_0x43bdbe[_0x4c75ba(0x1bd)];_0x45cb5f['closest'](_0x4c75ba(0x208))['length']&&(_0x484d78[_0x4c75ba(0x24a)+_0x45cb5f[_0x4c75ba(0x24e)](_0x4c75ba(0x208))[_0x4c75ba(0x255)]('.swich-parent')[_0x4c75ba(0x1e4)]('id')][_0x4c75ba(0x1f3)](_0x43bdbe[_0x4c75ba(0x1bd)]),_0x45cb5f[_0x4c75ba(0x24e)]('.slider-swiching')['find'](_0x4c75ba(0x21a))[_0x4c75ba(0x20b)]('active'),_0x45cb5f['closest'](_0x4c75ba(0x208))['find'](_0x4c75ba(0x21a))['eq'](_0xb05ce8)[_0x4c75ba(0x209)](_0x4c75ba(0x276)));if(_0x45cb5f[_0x4c75ba(0x1c3)]('swiper-control-top')){var _0xb05ce8=_0x43bdbe['activeIndex'],_0x2ff605=_0x45cb5f[_0x4c75ba(0x24e)](_0x4c75ba(0x1a0));_0x484d78[_0x4c75ba(0x24a)+_0x2ff605[_0x4c75ba(0x255)](_0x4c75ba(0x225))['attr']('id')][_0x4c75ba(0x1f3)](_0xb05ce8),_0x2ff605[_0x4c75ba(0x255)](_0x4c75ba(0x225))[_0x4c75ba(0x255)]('.active')[_0x4c75ba(0x20b)](_0x4c75ba(0x276)),_0x2ff605[_0x4c75ba(0x255)](_0x4c75ba(0x225))[_0x4c75ba(0x255)](_0x4c75ba(0x1f4))['eq'](_0xb05ce8)[_0x4c75ba(0x209)](_0x4c75ba(0x276));}},'onClick':function(_0x40b4fc){var _0x46e99b=_0x5681a8,_0x3678bb=_0x40b4fc['clickedIndex'];_0x45cb5f['closest'](_0x46e99b(0x1b2))[_0x46e99b(0x22b)]&&_0x40b4fc[_0x46e99b(0x1f3)](_0x3678bb);}}),_0x484d78[_0x5681a8(0x24a)+_0x52c8ca][_0x5681a8(0x1b1)](),_0x11a379++;}),_0x529635(_0x568c7c(0x260))[_0x568c7c(0x1fd)](function(){var _0x57da21=_0x568c7c;_0x484d78['swiper-'+_0x529635(this)['attr']('id')][_0x57da21(0x1e3)][_0x57da21(0x1ab)]=_0x484d78[_0x57da21(0x24a)+_0x529635(this)['parent']()['find'](_0x57da21(0x225))[_0x57da21(0x1e4)]('id')];}),_0x529635(_0x568c7c(0x222))[_0x568c7c(0x1fd)](function(){var _0x41fb16=_0x568c7c;_0x484d78['swiper-'+_0x529635(this)[_0x41fb16(0x1e4)]('id')]['params'][_0x41fb16(0x1ab)]=_0x484d78['swiper-'+_0x529635(this)[_0x41fb16(0x1a2)]()[_0x41fb16(0x255)](_0x41fb16(0x258))['attr']('id')];});}_0x529635(document)['on'](_0x1b1301(0x274),_0x1b1301(0x21a),function(){var _0x3de782=_0x1b1301,_0x368643=_0x529635(this)[_0x3de782(0x24e)](_0x3de782(0x208))[_0x3de782(0x255)](_0x3de782(0x21a))[_0x3de782(0x1fa)](this);return _0x529635(this)[_0x3de782(0x24e)](_0x3de782(0x208))[_0x3de782(0x255)](_0x3de782(0x21a))[_0x3de782(0x20b)]('active'),_0x529635(this)[_0x3de782(0x209)](_0x3de782(0x276)),_0x484d78[_0x3de782(0x24a)+_0x529635(this)['closest'](_0x3de782(0x208))[_0x3de782(0x255)](_0x3de782(0x242))[_0x3de782(0x1e4)]('id')][_0x3de782(0x1f3)](_0x368643),![];}),_0x529635(document)['on'](_0x1b1301(0x274),'.swiper-arrow-left',function(){var _0x556fe9=_0x1b1301;_0x484d78[_0x556fe9(0x24a)+_0x529635(this)[_0x556fe9(0x24e)]('.arrow-closest')['find'](_0x556fe9(0x231))[_0x556fe9(0x1e4)]('id')][_0x556fe9(0x23b)]();}),_0x529635(document)['on']('click',_0x1b1301(0x1e5),function(){var _0x599e7a=_0x1b1301;_0x484d78['swiper-'+_0x529635(this)[_0x599e7a(0x24e)](_0x599e7a(0x25e))[_0x599e7a(0x255)]('.swiper-container')[_0x599e7a(0x1e4)]('id')][_0x599e7a(0x1f9)]();}),_0x529635(window)['load'](function(){var _0x5c01e1=_0x1b1301;_0x2bb669(),_0x529635(_0x5c01e1(0x281))[_0x5c01e1(0x22b)]&&_0x529635(_0x5c01e1(0x281))[_0x5c01e1(0x1ce)]({'speed':0.7});}),_0x529635(_0x1b1301(0x1a1))['on'](_0x1b1301(0x274),function(){var _0x2a6fc5=_0x1b1301;_0x529635(this)[_0x2a6fc5(0x1c3)](_0x2a6fc5(0x265))?(_0x529635(this)[_0x2a6fc5(0x20b)](_0x2a6fc5(0x265)),_0x529635(_0x2a6fc5(0x25d))[_0x2a6fc5(0x20b)]('active'),_0x529635(_0x2a6fc5(0x1df))[_0x2a6fc5(0x20b)](_0x2a6fc5(0x241)),_0x529635('.header')[_0x2a6fc5(0x20b)](_0x2a6fc5(0x1d8))):(_0x529635(this)[_0x2a6fc5(0x209)](_0x2a6fc5(0x265)),_0x529635(_0x2a6fc5(0x25d))[_0x2a6fc5(0x209)](_0x2a6fc5(0x276)),_0x529635(_0x2a6fc5(0x1df))['addClass'](_0x2a6fc5(0x241)));}),_0x529635('.menu-arr')['on'](_0x1b1301(0x274),function(){var _0x562817=_0x1b1301;return _0x529635(this)[_0x562817(0x1a2)]()[_0x562817(0x1a2)]()[_0x562817(0x255)]('ul')[_0x562817(0x201)]()[_0x562817(0x1bb)](0x12c),![];}),_0x529635(_0x1b1301(0x23e))['on'](_0x1b1301(0x274),function(){}),_0x529635('.close-search')['on'](_0x1b1301(0x274),function(){}),_0x529635(window)[_0x1b1301(0x1e1)](function(){_0x186549(),_0x1c17b1(),_0x5ad319();});function _0x1c17b1(){var _0x12daf5=_0x1b1301;_0x529635(window)[_0x12daf5(0x211)]()>=_0x529635(_0x12daf5(0x275))[_0x12daf5(0x213)]()-0x8a?_0x529635(_0x12daf5(0x1d3))[_0x12daf5(0x209)](_0x12daf5(0x1cb)):_0x529635(_0x12daf5(0x1d3))['removeClass'](_0x12daf5(0x1cb));}function _0x186549(){var _0x871093=_0x1b1301;_0x529635(window)[_0x871093(0x211)]()>=_0x529635(_0x871093(0x278))[_0x871093(0x213)]()?_0x529635(_0x871093(0x1d3))[_0x871093(0x209)](_0x871093(0x1c7)):_0x529635(_0x871093(0x1d3))[_0x871093(0x20b)](_0x871093(0x1c7));}_0x529635('.up-button')['on']('click',function(){var _0x2fdaa5=_0x1b1301;return _0x529635(_0x2fdaa5(0x1ef))['animate']({'scrollTop':'0'}),![];});function _0x5ad319(){var _0x203c2b=_0x1b1301;_0x529635(_0x203c2b(0x273))[_0x203c2b(0x22b)]&&_0x529635(_0x203c2b(0x273))[_0x203c2b(0x22a)](_0x203c2b(0x1a7))[_0x203c2b(0x1fd)](function(){var _0x508364=_0x203c2b;_0x529635(window)[_0x508364(0x211)]()>=_0x529635(this)[_0x508364(0x1a4)]()[_0x508364(0x1ec)]-_0x529635(window)[_0x508364(0x213)]()*1.1&&_0x529635(this)['addClass']('animated');});}function _0x2bb669(){var _0x42484a=_0x1b1301;if(_0x529635('.izotope-container')['length']){var _0x286e9d=_0x529635('.izotope-container');_0x286e9d[_0x42484a(0x1f0)]({'itemSelector':'.item','layoutMode':'masonry','masonry':{'columnWidth':_0x42484a(0x19e)}}),_0x529635(_0x42484a(0x1d2))['click'](function(){var _0x30a8ab=_0x42484a;_0x529635(_0x30a8ab(0x1fc))[_0x30a8ab(0x1fd)](function(){var _0x19a63f=_0x30a8ab;_0x529635(this)[_0x19a63f(0x255)](_0x19a63f(0x239))[_0x19a63f(0x20b)](_0x19a63f(0x1d0));}),_0x529635(_0x30a8ab(0x1d2))[_0x30a8ab(0x20b)]('active'),_0x529635(this)[_0x30a8ab(0x209)](_0x30a8ab(0x276));var _0x557647=_0x529635(this)[_0x30a8ab(0x1e4)]('data-filter');_0x286e9d[_0x30a8ab(0x1f0)]({'filter':_0x557647});});}}var _0x1c4ce0=[],_0x502127=[],_0x389759,_0x4f0378=_0x529635(_0x1b1301(0x205))[_0x1b1301(0x1e4)]('data-marker');function _0x389db3(_0x56f624,_0x25357c,_0x133a08){var _0x362d05=_0x1b1301;_0x1c4ce0[_0x25357c]=new google[(_0x362d05(0x256))][(_0x362d05(0x253))]({'position':_0x56f624,'map':_0x389759,'icon':_0x4f0378}),_0x1c4ce0[_0x25357c][_0x362d05(0x1e8)](_0x389759),_0x502127[_0x25357c]=new google[(_0x362d05(0x256))]['InfoWindow']({'content':_0x133a08}),google['maps'][_0x362d05(0x1b5)][_0x362d05(0x266)](_0x1c4ce0[_0x25357c],_0x362d05(0x274),function(){var _0x2c9cd0=_0x362d05;_0x502127[_0x25357c][_0x2c9cd0(0x1db)](_0x389759,_0x1c4ce0[_0x25357c]);});}function _0x57e595(){var _0x419f42=_0x1b1301,_0x334d9f=_0x529635(_0x419f42(0x1b3))[_0x419f42(0x1e4)]('data-lat'),_0x4291fd=_0x529635('#map-canvas')[_0x419f42(0x1e4)]('data-lng'),_0x210981=_0x529635(_0x419f42(0x1b3))[_0x419f42(0x1e4)](_0x419f42(0x227)),_0xd0ba81=new google[(_0x419f42(0x256))][(_0x419f42(0x207))](_0x334d9f,_0x4291fd),_0x3de75d=parseInt(_0x529635(_0x419f42(0x1b3))['attr'](_0x419f42(0x254)),0xa),_0x1f3b46='';_0x210981=='1'&&(_0x1f3b46=[{'featureType':_0x419f42(0x1dd),'elementType':_0x419f42(0x252),'stylers':[{'saturation':0x24},{'color':_0x419f42(0x1c8)},{'lightness':0x28}]},{'featureType':_0x419f42(0x1dd),'elementType':_0x419f42(0x1ee),'stylers':[{'visibility':'on'},{'color':_0x419f42(0x1c8)},{'lightness':0x10}]},{'featureType':'all','elementType':_0x419f42(0x19c),'stylers':[{'visibility':_0x419f42(0x26f)}]},{'featureType':'administrative','elementType':_0x419f42(0x271),'stylers':[{'color':_0x419f42(0x1c8)},{'lightness':0x14}]},{'featureType':_0x419f42(0x21c),'elementType':_0x419f42(0x1b7),'stylers':[{'color':'#000000'},{'lightness':0x11},{'weight':1.2}]},{'featureType':'landscape','elementType':_0x419f42(0x1d9),'stylers':[{'color':_0x419f42(0x1c8)},{'lightness':0x14}]},{'featureType':_0x419f42(0x246),'elementType':_0x419f42(0x1d9),'stylers':[{'color':_0x419f42(0x1c8)},{'lightness':0x15}]},{'featureType':'road.highway','elementType':_0x419f42(0x271),'stylers':[{'color':_0x419f42(0x1c8)},{'lightness':0x11}]},{'featureType':_0x419f42(0x1d5),'elementType':_0x419f42(0x1b7),'stylers':[{'color':_0x419f42(0x1c8)},{'lightness':0x1d},{'weight':0.2}]},{'featureType':'road.arterial','elementType':'geometry','stylers':[{'color':_0x419f42(0x1c8)},{'lightness':0x12}]},{'featureType':_0x419f42(0x206),'elementType':'geometry','stylers':[{'color':_0x419f42(0x1c8)},{'lightness':0x10}]},{'featureType':_0x419f42(0x1f1),'elementType':_0x419f42(0x1d9),'stylers':[{'color':'#000000'},{'lightness':0x13}]},{'featureType':_0x419f42(0x1e0),'elementType':_0x419f42(0x1d9),'stylers':[{'color':_0x419f42(0x1c8)},{'lightness':0x11}]}]);var _0x36f9a5=new google[(_0x419f42(0x256))][(_0x419f42(0x1af))](_0x1f3b46,{'name':_0x419f42(0x249)}),_0x35af8f;!_0x30ec7c?_0x35af8f=!![]:_0x35af8f=![];var _0x4f171c={'zoom':_0x3de75d,'disableDefaultUI':![],'scrollwheel':![],'zoomControl':!![],'streetViewControl':!![],'center':_0xd0ba81,'draggable':_0x35af8f};_0x389759=new google['maps'][(_0x419f42(0x26a))](document[_0x419f42(0x1ea)](_0x419f42(0x283)),_0x4f171c),_0x389759[_0x419f42(0x1bc)][_0x419f42(0x210)](_0x419f42(0x1ba),_0x36f9a5),_0x389759[_0x419f42(0x27f)](_0x419f42(0x1ba)),_0x529635(_0x419f42(0x203))['each'](function(){var _0x343ccd=_0x419f42,_0x77c9e1=_0x529635(this)[_0x343ccd(0x1e4)]('data-lat'),_0x5961c3=_0x529635(this)['attr'](_0x343ccd(0x20c)),_0x265f81=_0x529635(_0x343ccd(0x203))['index'](this),_0x2300cd=_0x343ccd(0x25f)+_0x265f81,_0x2695c2=new google[(_0x343ccd(0x256))][(_0x343ccd(0x207))](_0x77c9e1,_0x5961c3),_0xd87ded=_0x529635(this)[_0x343ccd(0x1e4)](_0x343ccd(0x27c));_0x389db3(_0x2695c2,_0x2300cd,_0xd87ded);});}_0x529635(document)['on']('click','.play-button',function(){var _0x1fb718=_0x1b1301,_0x1cc59a=_0x529635(this)[_0x1fb718(0x1e4)](_0x1fb718(0x245)),_0x4f3b58=_0x529635(this)[_0x1fb718(0x24e)](_0x1fb718(0x22f))[_0x1fb718(0x255)](_0x1fb718(0x240));return _0x529635(this)[_0x1fb718(0x24e)]('.video-open')[_0x1fb718(0x255)](_0x1fb718(0x1e6))[_0x1fb718(0x209)](_0x1fb718(0x1cf)),_0x529635(_0x1fb718(0x22f))['addClass'](_0x1fb718(0x1f7)),_0x529635('<iframe>')[_0x1fb718(0x1e4)](_0x1fb718(0x226),_0x1cc59a)['appendTo'](_0x4f3b58),![];}),_0x529635(document)['on'](_0x1b1301(0x274),_0x1b1301(0x228),function(){var _0x502da5=_0x1b1301,_0x2a427f=_0x529635(this)[_0x502da5(0x1a2)]()[_0x502da5(0x255)](_0x502da5(0x240));return _0x529635(this)[_0x502da5(0x24e)](_0x502da5(0x22f))[_0x502da5(0x255)](_0x502da5(0x1e6))[_0x502da5(0x20b)](_0x502da5(0x1cf)),_0x529635('.video-open')[_0x502da5(0x20b)](_0x502da5(0x1f7)),_0x2a427f['find']('iframe')['remove'](),![];}),_0x529635(_0x1b1301(0x229))['on']('click',function(){var _0x2f3234=_0x1b1301,_0x1b26fd=_0x529635(this),_0x552007=_0x1b26fd['closest'](_0x2f3234(0x238)),_0x45aa43=_0x1b26fd[_0x2f3234(0x24e)](_0x2f3234(0x23c)),_0x28a9b6=_0x45aa43[_0x2f3234(0x255)](_0x2f3234(0x238)),_0xa3a6f5=_0x552007[_0x2f3234(0x255)](_0x2f3234(0x24c)),_0x2d4970=_0x45aa43[_0x2f3234(0x255)](_0x2f3234(0x24c)),_0x72dfb8=0x12c;return!_0x552007['hasClass']('active')?(_0x28a9b6['removeClass'](_0x2f3234(0x276)),_0x552007[_0x2f3234(0x209)](_0x2f3234(0x276)),_0x2d4970['stop'](!![],!![])['slideUp'](_0x72dfb8),_0xa3a6f5[_0x2f3234(0x1ff)](!![],!![])[_0x2f3234(0x1b0)](_0x72dfb8)):(_0x552007[_0x2f3234(0x20b)](_0x2f3234(0x276)),_0xa3a6f5[_0x2f3234(0x1ff)](!![],!![])['slideUp'](_0x72dfb8)),![];}),_0x529635(_0x1b1301(0x224))['on'](_0x1b1301(0x274),function(){var _0x2ef027=_0x1b1301;_0x529635(this)[_0x2ef027(0x1d6)](_0x2ef027(0x276));}),_0x529635(document)['on'](_0x1b1301(0x274),'.custom-input-number\x20.cin-increment',function(_0x3e2496){var _0x1e8e67=_0x1b1301,_0x304e12=_0x529635(this)[_0x1e8e67(0x21f)](_0x1e8e67(0x1da)),_0x578646=parseInt(_0x304e12['val']()),_0x4f079a=parseInt(_0x304e12['attr']('max')),_0x10a1dc=parseInt(_0x304e12['attr'](_0x1e8e67(0x27e))),_0x55df05=_0x578646+_0x10a1dc;_0x304e12[_0x1e8e67(0x25c)](_0x55df05<=_0x4f079a?_0x55df05:_0x4f079a);}),_0x529635(document)['on'](_0x1b1301(0x274),_0x1b1301(0x1dc),function(_0x3e2c6b){var _0x4a3bfe=_0x1b1301,_0x1d76ff=_0x529635(this)[_0x4a3bfe(0x21f)](_0x4a3bfe(0x1da)),_0x38ee06=parseInt(_0x1d76ff['val']()),_0x4b5c58=parseInt(_0x1d76ff['attr']('min')),_0x5a98a0=parseInt(_0x1d76ff[_0x4a3bfe(0x1e4)](_0x4a3bfe(0x27e))),_0x42d8b6=_0x38ee06-_0x5a98a0;_0x1d76ff[_0x4a3bfe(0x25c)](_0x42d8b6>=_0x4b5c58?_0x42d8b6:_0x4b5c58);}),_0x529635('.open-popup')['on'](_0x1b1301(0x274),function(){var _0x5e75b4=_0x1b1301,_0x86e612=_0x529635(this)[_0x5e75b4(0x1e4)](_0x5e75b4(0x22d));return _0x529635(_0x5e75b4(0x236)+_0x86e612)[_0x5e75b4(0x209)](_0x5e75b4(0x276)),_0x529635(_0x5e75b4(0x1df))['addClass'](_0x5e75b4(0x241)),![];}),_0x529635(_0x1b1301(0x21e))['on'](_0x1b1301(0x274),function(){var _0x1ee47c=_0x1b1301;_0x529635(_0x1ee47c(0x232))['removeClass'](_0x1ee47c(0x276)),_0x529635('body')[_0x1ee47c(0x20b)](_0x1ee47c(0x241));}),_0x529635(_0x1b1301(0x234))['on']('click',function(){var _0x5bff07=_0x1b1301;_0x529635(this)[_0x5bff07(0x1a2)]()['remove']();}),_0x529635(_0x1b1301(0x1ac))['on'](_0x1b1301(0x274),function(){var _0x2ff4a0=_0x1b1301;_0x529635(_0x2ff4a0(0x223))[_0x2ff4a0(0x1d6)]('active');}),_0x529635(_0x1b1301(0x233))['on'](_0x1b1301(0x274),function(){var _0xfc60c6=_0x1b1301;_0x529635(_0xfc60c6(0x223))['removeClass'](_0xfc60c6(0x276));}),_0x529635(_0x1b1301(0x19d))['on'](_0x1b1301(0x274),function(){var _0x3e0b7a=_0x1b1301;_0x529635(this)[_0x3e0b7a(0x1d6)](_0x3e0b7a(0x276))[_0x3e0b7a(0x26b)]()[_0x3e0b7a(0x1bb)]();});_0x529635(window)[_0x1b1301(0x22e)]()<0x3e0&&_0x529635(_0x1b1301(0x1c0))['on']('click',function(){var _0x41cd75=_0x1b1301;return _0x529635(this)[_0x41cd75(0x24e)](_0x41cd75(0x1e9))[_0x41cd75(0x255)](_0x41cd75(0x25a))[_0x41cd75(0x282)](_0x529635(this)['text']()),_0x529635(this)['closest'](_0x41cd75(0x1e9))[_0x41cd75(0x255)]('.select-open')[_0x41cd75(0x20b)](_0x41cd75(0x276)),_0x529635(this)[_0x41cd75(0x24e)](_0x41cd75(0x1e9))['find']('ul')[_0x41cd75(0x1ae)](0x12c),![];});_0x529635('.slider-range')['each'](function(_0x587d75){var _0x420725=_0x1b1301,_0x1169bf=_0x529635(this)[_0x420725(0x235)]('counter'),_0x2b7679=_0x529635(this)[_0x420725(0x235)]('position'),_0x332608=parseInt(_0x529635(this)[_0x420725(0x235)](_0x420725(0x1d7)),0xa),_0x5d6466=parseInt(_0x529635(this)[_0x420725(0x235)]('to'),0xa),_0x545b27=parseInt(_0x529635(this)[_0x420725(0x235)](_0x420725(0x248)),0xa),_0x563b2e=parseInt(_0x529635(this)['data'](_0x420725(0x1b9)),0xa);_0x529635(this)['find']('.range')['attr']('id',_0x420725(0x20a)+_0x587d75),_0x529635(this)[_0x420725(0x255)](_0x420725(0x217))[_0x420725(0x1e4)]('id',_0x420725(0x25b)+_0x587d75),_0x529635(this)[_0x420725(0x255)]('.amount-end')[_0x420725(0x1e4)]('id','amount-end-'+_0x587d75),_0x529635('#slider-range-'+_0x587d75)['slider']({'range':!![],'min':_0x545b27,'max':_0x563b2e,'values':[_0x332608,_0x5d6466],'slide':function(_0x1c92e1,_0x59661b){var _0x3db942=_0x420725;_0x2b7679==_0x3db942(0x24f)?(_0x529635('#amount-start-'+_0x587d75)[_0x3db942(0x282)](_0x1169bf+_0x59661b[_0x3db942(0x270)][0x0]),_0x529635(_0x3db942(0x1b6)+_0x587d75)[_0x3db942(0x282)](_0x1169bf+_0x59661b['values'][0x1])):(_0x529635('#amount-start-'+_0x587d75)[_0x3db942(0x282)](_0x59661b[_0x3db942(0x270)][0x0]+_0x1169bf),_0x529635(_0x3db942(0x1b6)+_0x587d75)[_0x3db942(0x282)](_0x59661b[_0x3db942(0x270)][0x1]+_0x1169bf));}}),_0x2b7679==_0x420725(0x24f)?(_0x529635(_0x420725(0x219)+_0x587d75)['text'](_0x1169bf+_0x529635('#slider-range-'+_0x587d75)[_0x420725(0x1be)](_0x420725(0x270),0x0)),_0x529635(_0x420725(0x1b6)+_0x587d75)['text'](_0x1169bf+_0x529635('#slider-range-'+_0x587d75)[_0x420725(0x1be)](_0x420725(0x270),0x1))):(_0x529635(_0x420725(0x219)+_0x587d75)[_0x420725(0x282)](_0x529635('#slider-range-'+_0x587d75)[_0x420725(0x1be)](_0x420725(0x270),0x0)+_0x1169bf),_0x529635('#amount-end-'+_0x587d75)[_0x420725(0x282)](_0x529635(_0x420725(0x284)+_0x587d75)['slider']('values',0x1)+_0x1169bf));}),_0x529635('.piker-open')['on'](_0x1b1301(0x274),function(){var _0x11c83a=_0x1b1301;_0x529635(_0x11c83a(0x259))[_0x11c83a(0x1d6)](_0x11c83a(0x276));});function _0x1b12c3(){var _0x516d3b=_0x1b1301;if(!_0x529635(_0x516d3b(0x261))[_0x516d3b(0x22b)])return![];_0x529635('.countdown')[_0x516d3b(0x22a)](_0x516d3b(0x216))[_0x516d3b(0x1fd)](function(){var _0x511f10=_0x516d3b;_0x529635(this)['addClass'](_0x511f10(0x1f5))[_0x511f10(0x218)]({'end':_0x529635[_0x511f10(0x1e7)]()+parseInt(_0x529635(this)[_0x511f10(0x235)](_0x511f10(0x20e))),'labels':!![],'style':{'element':'','days':{'gauge':{'thickness':_0x529635(this)[_0x511f10(0x235)]('line'),'fgColor':_0x529635(this)[_0x511f10(0x235)](_0x511f10(0x1f8)),'bgColor':_0x529635(this)[_0x511f10(0x235)]('bgcolor')}},'hours':{'gauge':{'thickness':_0x529635(this)[_0x511f10(0x235)]('line'),'fgColor':_0x529635(this)[_0x511f10(0x235)](_0x511f10(0x1f8)),'bgColor':_0x529635(this)[_0x511f10(0x235)]('bgcolor')}},'minutes':{'gauge':{'thickness':_0x529635(this)[_0x511f10(0x235)](_0x511f10(0x1a8)),'fgColor':_0x529635(this)[_0x511f10(0x235)]('fgcolor'),'bgColor':_0x529635(this)[_0x511f10(0x235)]('bgcolor')}},'seconds':{'gauge':{'thickness':_0x529635(this)[_0x511f10(0x235)]('line'),'fgColor':_0x529635(this)[_0x511f10(0x235)](_0x511f10(0x1f8)),'bgColor':_0x529635(this)[_0x511f10(0x235)](_0x511f10(0x1f2))}}}});});}_0x1b12c3(),_0x529635(_0x1b1301(0x264))['on'](_0x1b1301(0x274),function(){var _0x4fae0d=_0x1b1301,_0x2e182a=_0x529635(_0x4fae0d(0x264))['index'](this);return _0x529635(_0x4fae0d(0x264))['removeClass'](_0x4fae0d(0x276)),_0x529635(this)[_0x4fae0d(0x209)](_0x4fae0d(0x276)),_0x529635(_0x4fae0d(0x1aa))[_0x4fae0d(0x24d)](0xc8)[_0x4fae0d(0x20b)](_0x4fae0d(0x276)),_0x529635(_0x4fae0d(0x1aa))['eq'](_0x2e182a)[_0x4fae0d(0x20f)](0xc8)['addClass'](_0x4fae0d(0x276)),_0x529635('.tab-container-item')['eq'](_0x2e182a)[_0x4fae0d(0x255)]('.swiper-container')['length']&&setTimeout(function(){_0x291544();},0x64),![];}),_0x529635('.controlTopSwiper')['on'](_0x1b1301(0x274),function(){var _0x455816=_0x1b1301,_0x487f93=_0x529635(this)[_0x455816(0x24e)](_0x455816(0x231))[_0x455816(0x255)](_0x455816(0x1f4))['index'](_0x529635(this)['parent']());_0x484d78[_0x455816(0x24a)+_0x529635(this)['closest'](_0x455816(0x1a0))[_0x455816(0x255)](_0x455816(0x258))[_0x455816(0x1e4)]('id')][_0x455816(0x1f3)](_0x487f93);}),_0x529635(_0x1b1301(0x24b))['on'](_0x1b1301(0x274),function(_0x2da87a){var _0x48c848=_0x1b1301,_0x35a298=_0x529635(this)[_0x48c848(0x255)]('input');_0x529635(this)['parent']()[_0x48c848(0x255)](_0x48c848(0x1cc))[_0x48c848(0x1bb)](0x15e),_0x35a298['is'](_0x48c848(0x21b))?_0x35a298[_0x48c848(0x247)]('checked',![]):_0x35a298[_0x48c848(0x247)](_0x48c848(0x280),!![]),_0x2da87a[_0x48c848(0x26c)]();}),_0x529635(_0x1b1301(0x22c))['on'](_0x1b1301(0x274),function(){var _0x5c2a99=_0x1b1301;_0x529635(_0x5c2a99(0x285))[_0x5c2a99(0x1d6)](_0x5c2a99(0x276));}),_0x529635(_0x1b1301(0x268))['on'](_0x1b1301(0x274),function(){var _0x18be69=_0x1b1301;_0x529635(_0x18be69(0x285))['removeClass'](_0x18be69(0x276));}),_0x529635(_0x1b1301(0x23d))['on'](_0x1b1301(0x244),function(_0x519ec7){var _0x895a1b=_0x1b1301,_0x521461=_0x529635(_0x895a1b(0x1f6))[_0x895a1b(0x25c)]();_0x521461=='animation'?_0x529635(_0x895a1b(0x1df))['removeClass'](_0x895a1b(0x262)):_0x529635(_0x895a1b(0x1df))['addClass'](_0x895a1b(0x262)),_0x519ec7[_0x895a1b(0x26c)]();}),_0x529635(_0x1b1301(0x279))['text'](_0x4a2eb1());function _0x4a2eb1(){var _0x189962=new Date(),_0x473dd4=_0x189962['getFullYear']();return _0x473dd4;}_0x529635('img')[_0x1b1301(0x1e4)]('draggable',_0x1b1301(0x1a9)),_0x529635(document)['on']('contextmenu',function(_0x97ccb4){var _0x54df7c=_0x1b1301;_0x97ccb4[_0x54df7c(0x26c)]();});}));function _0x5731(){var _0x557bf7=['mapTypes','activeIndex','slider','8DcehJc','.mobile-select\x20ul\x20li','[data-space]','.bg.ready','hasClass','.swiper-container.initialized[data-slides-per-view=\x22responsive\x22]','425592byYFIm','.preloader','scrol','#000000','data-freemode','42HeHqCT','fixed','.delivery-form','data-slides-per-view','jarallax','act','animated','data-center','.filter-list\x20li','header','data-mode','road.highway','toggleClass','from','open-search','geometry','.cin-input','open','.custom-input-number\x20.cin-decrement','all','data-parallax','body','water','scroll','slidesPerView','params','attr','.swiper-arrow-right','.video-item','now','setMap','.mobile-select','getElementById','resize','top','data-loop','labels.text.stroke','body,\x20html','isotope','transit','bgcolor','slideTo','.swiper-slide','initialized','input[name=1]:checked','over','fgcolor','slideNext','index','7836ofuAiX','.izotope-container','each','space-between','stop','.main-content','first','724RjJHRj','.addresses-block\x20a','.bg','.map-wrapper','road.local','LatLng','.slider-swiching','addClass','slider-range-','removeClass','data-lng','79554nQhDuf','end','fadeIn','set','scrollTop','removeAttr','height','data-effect','pagination-','.initialized','.amount-start','ClassyCountdown','#amount-start-','.slide-swich',':checked','administrative','9046950NeBVpT','.close-popup','siblings','data-autoplay','orientationchange','.swiper-container.swiper-control-bottom','.shop-card-list','.like-item','.swiper-control-bottom','src','data-style','.close-video','.accordeon-triger','not','length','.filter-open','data-open','width','.video-open','data-add-slides','.swiper-container','.popup','.close-card-mobile','.close-item','data','.index-','.pagination\x20span','.accordeon-item','.item','indexOf','slidePrev','.accordeon-list','.choose-animation\x20input','.search-open','userAgent','.video-iframe','overflow','.container-swich','match','change','data-video','poi','prop','min','Styled\x20Map','swiper-','.delivery','.accordeon-inner','fadeOut','closest','start','data-jarallax','.swiper-','labels.text.fill','Marker','data-zoom','find','maps','2273050KJtOaD','.swiper-control-top','.color-piker','.select-open\x20.txt','amount-start-','val','.nav','.arrow-closest','template_marker_','.swiper-container.swiper-control-top','.countdown','no-animated','data-speed','.item-tabs\x20li','open-menu','addListener','show','.close-filter','data-sm-slides','Map','next','preventDefault','.footer','\x20initialized','off','values','geometry.fill','132224vvmJvy','.item-animation','click','.full-height-slider','active','hide','.header','#date-right','mobile','MSIE\x20','data-string','swiper-unique-id-','step','setMapTypeId','checked','.data-jarallax','text','map-canvas','#slider-range-','.menu-filter','labels.icon','.select-open','.grid-sizer','.pagination','.swipers-wrapper','.burger-menu','parent','centeredSlides','offset','responsive','2248731JgbzRQ','.animated','line','false','.tab-container-item','control','.shop-icon','space','slideUp','StyledMapType','slideDown','update','.checkbox-wrapp','#map-canvas','data-xs-slides','event','#amount-end-','geometry.stroke','.pagination-','max','map_style','slideToggle'];_0x5731=function(){return _0x557bf7;};return _0x5731();}
+/*--------------------------------------------------------*/
+/* TABLE OF CONTENTS: */
+/*--------------------------------------------------------*/
+/* 01 - VARIABLES */
+/* 02 - SWIPER SLIDER */
+/* 03 - WINDOW LOAD */
+/* 04 - MENU */
+/* 05 - WINDOW SCROLL */
+/* 06 - ISOTOPE */
+/* 07 - GOOGLE MAP */
+/* 08 - VIDEO YOUTUBE - VIMEO */
+/* 09 - ACCORDEON  */
+/* 10 - CLICK AND HOVER  */
+/* 11 - SLIDER RANGE  */
+/* 12 - COLORPICKER  */
+/* 13 - TIMER */
+/* 14 - TABS*/
+/* 15 - COPLE SWIPER  */
+/* 16 - CHECKOUT  */
+/* 17 - SHOP MENU FILTER  */
+/* 18 - CHOOSE ANIMATION  */
+/*20 - MAKE DRAGGABLE EQUAL TO FALSE */
+/*21 - DISABLE THE RIGHT CLICK */
+jQuery(function ($) {
+  "use strict";
+
+  /*============================*/
+  /* 01 - VARIABLES */
+  /*============================*/
+
+  var swipers = [],
+    winW,
+    winH,
+    winScr,
+    _isresponsive,
+    xsPoint = 480,
+    smPoint = 768,
+    mdPoint = 992,
+    lgPoint = 1200,
+    addPoint = 1600,
+    _ismobile =
+      navigator.userAgent.match(/Android/i) ||
+      navigator.userAgent.match(/webOS/i) ||
+      navigator.userAgent.match(/iPhone/i) ||
+      navigator.userAgent.match(/iPad/i) ||
+      navigator.userAgent.match(/iPod/i),
+    footerHeight = $(".footer").height();
+
+  function pageCalculations() {
+    winW = $(window).width();
+    winH = $(window).height();
+    if ($(window).width() > 992) {
+      $(".main-content").css({ "margin-bottom": footerHeight - 1 });
+    } else {
+      $(".main-content").css({ "margin-bottom": "0" });
+    }
+  }
+  pageCalculations();
+
+  if (_ismobile) {
+    $("body").addClass("mobile");
+    $(".bg").removeClass("data-jarallax");
+  }
+
+  if ($(window).width() < 1200) {
+    $(".swiper-container").each(function () {
+      $(this).removeAttr("data-parallax");
+    });
+  }
+
+  initSwiper();
+
+  if ($(".map-wrapper").length) {
+    setTimeout(function () {
+      initialize();
+    }, 1000);
+  }
+  $(".preloader").fadeOut();
+
+  var ua = window.navigator.userAgent;
+  var msie = ua.indexOf("MSIE ");
+
+  if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+    $(".bg.ready").removeAttr("data-jarallax").addClass("fix");
+  }
+
+  function updateSlidesPerView(swiperContainer) {
+    if (winW >= addPoint)
+      return parseInt(swiperContainer.attr("data-add-slides"), 10);
+    else if (winW >= lgPoint)
+      return parseInt(swiperContainer.attr("data-lg-slides"), 10);
+    else if (winW >= mdPoint)
+      return parseInt(swiperContainer.attr("data-md-slides"), 10);
+    else if (winW >= smPoint)
+      return parseInt(swiperContainer.attr("data-sm-slides"), 10);
+    else return parseInt(swiperContainer.attr("data-xs-slides"), 10);
+  }
+
+  function resizeCall() {
+    pageCalculations();
+
+    $('.swiper-container.initialized[data-slides-per-view="responsive"]').each(
+      function () {
+        var thisSwiper = swipers["swiper-" + $(this).attr("id")],
+          $t = $(this),
+          slidesPerViewVar = updateSlidesPerView($t),
+          centerVar = thisSwiper.params.centeredSlides;
+        thisSwiper.params.slidesPerView = slidesPerViewVar;
+        thisSwiper.update();
+        if (!centerVar) {
+          var paginationSpan = $t.find(".pagination span");
+          var paginationSlice = paginationSpan
+            .hide()
+            .slice(0, paginationSpan.length + 1 - slidesPerViewVar);
+          if (
+            paginationSlice.length <= 1 ||
+            slidesPerViewVar >= $t.find(".swiper-slide").length
+          )
+            $t.addClass("pagination-hidden");
+          else $t.removeClass("pagination-hidden");
+          paginationSlice.show();
+        }
+      }
+    );
+  }
+  if (!_ismobile) {
+    $(window).resize(function () {
+      resizeCall();
+    });
+  } else {
+    window.addEventListener(
+      "orientationchange",
+      function () {
+        resizeCall();
+      },
+      false
+    );
+  }
+
+  /*============================*/
+  /* 02 - SWIPER SLIDER */
+  /*============================*/
+
+  function initSwiper() {
+    var initIterator = 0;
+    $(".swiper-container").each(function () {
+      var $t = $(this);
+      var index = "swiper-unique-id-" + initIterator;
+
+      $t.addClass("swiper-" + index + " initialized").attr("id", index);
+      $t.find(".pagination").addClass("pagination-" + index);
+
+      var autoPlayVar = parseInt($t.attr("data-autoplay"), 10);
+      var slideEffect = $t.attr("data-effect");
+      var slidesPerViewVar = $t.attr("data-slides-per-view");
+
+      if (slidesPerViewVar == "responsive") {
+        slidesPerViewVar = updateSlidesPerView($t);
+      }
+
+      var directMode = $t.attr("data-mode");
+      var loopVar = parseInt($t.attr("data-loop"), 10);
+      var parallaxVal = parseInt($t.attr("data-parallax"), 10);
+      var speedVar = parseInt($t.attr("data-speed"), 10);
+      var centerVar = parseInt($t.attr("data-center"), 10);
+      var freeMode = parseInt($t.attr("data-freemode"), 10);
+      var space = parseInt($t.attr("space-between"), 10);
+      swipers["swiper-" + index] = new Swiper(".swiper-" + index, {
+        speed: speedVar,
+        pagination: ".pagination-" + index,
+        paginationHide: false,
+        loop: loopVar,
+        paginationClickable: true,
+        autoplay: autoPlayVar,
+        slidesPerView: slidesPerViewVar,
+        keyboardControl: true,
+        simulateTouch: true,
+        centeredSlides: centerVar,
+        effect: slideEffect,
+        coverflow: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        },
+        direction: directMode,
+        freeMode: freeMode,
+        updateTranslate: true,
+        observer: true,
+        parallax: parallaxVal,
+        preventClicks: true,
+        longSwipesRatio: 0.1,
+        spaceBetween: $t.is("[data-space]")
+          ? parseInt($t.data("space"), 10)
+          : 0,
+        onSlideChangeStart: function (swiper) {
+          var activeIndex =
+            loopVar === 1 ? swiper.activeLoopIndex : swiper.activeIndex;
+          if ($t.closest(".slider-swiching").length) {
+            swipers[
+              "swiper-" +
+                $t.closest(".slider-swiching").find(".swich-parent").attr("id")
+            ].slideTo(swiper.activeIndex);
+            $t.closest(".slider-swiching")
+              .find(".slide-swich")
+              .removeClass("active");
+            $t.closest(".slider-swiching")
+              .find(".slide-swich")
+              .eq(activeIndex)
+              .addClass("active");
+          }
+
+          if ($t.hasClass("swiper-control-top")) {
+            var activeIndex = swiper.activeIndex,
+              slidersWrapper = $t.closest(".swipers-wrapper");
+            swipers[
+              "swiper-" +
+                slidersWrapper.find(".swiper-control-bottom").attr("id")
+            ].slideTo(activeIndex);
+            slidersWrapper
+              .find(".swiper-control-bottom")
+              .find(".active")
+              .removeClass("active");
+            slidersWrapper
+              .find(".swiper-control-bottom")
+              .find(".swiper-slide")
+              .eq(activeIndex)
+              .addClass("active");
+          }
+        },
+
+        onClick: function (swiper) {
+          var activeIndex1 = swiper.clickedIndex;
+          if ($t.closest(".checkbox-wrapp").length) {
+            swiper.slideTo(activeIndex1);
+          }
+        },
+      });
+
+      swipers["swiper-" + index].update();
+      initIterator++;
+    });
+    $(".swiper-container.swiper-control-top").each(function () {
+      swipers["swiper-" + $(this).attr("id")].params.control =
+        swipers[
+          "swiper-" + $(this).parent().find(".swiper-control-bottom").attr("id")
+        ];
+    });
+    $(".swiper-container.swiper-control-bottom").each(function () {
+      swipers["swiper-" + $(this).attr("id")].params.control =
+        swipers[
+          "swiper-" + $(this).parent().find(".swiper-control-top").attr("id")
+        ];
+    });
+  }
+
+  $(document).on("click", ".slide-swich", function () {
+    var swichIndex = $(this)
+      .closest(".slider-swiching")
+      .find(".slide-swich")
+      .index(this);
+    $(this)
+      .closest(".slider-swiching")
+      .find(".slide-swich")
+      .removeClass("active");
+    $(this).addClass("active");
+    swipers[
+      "swiper-" +
+        $(this).closest(".slider-swiching").find(".container-swich").attr("id")
+    ].slideTo(swichIndex);
+    return false;
+  });
+
+  $(document).on("click", ".swiper-arrow-left", function () {
+    swipers[
+      "swiper-" +
+        $(this).closest(".arrow-closest").find(".swiper-container").attr("id")
+    ].slidePrev();
+  });
+
+  $(document).on("click", ".swiper-arrow-right", function () {
+    swipers[
+      "swiper-" +
+        $(this).closest(".arrow-closest").find(".swiper-container").attr("id")
+    ].slideNext();
+  });
+
+  /*============================*/
+  /* 03 - WINDOW LOAD */
+  /*============================*/
+
+  $(window).load(function () {
+    izotopInit();
+
+    if ($(".data-jarallax").length) {
+      $(".data-jarallax").jarallax({
+        speed: 0.7,
+      });
+    }
+  });
+
+  /*============================*/
+  /* 04 - MENU */
+  /*============================*/
+
+  $(".burger-menu").on("click", function () {
+    if ($(this).hasClass("open-menu")) {
+      $(this).removeClass("open-menu");
+      $(".nav").removeClass("active");
+      $("body").removeClass("overflow");
+      $(".header").removeClass("open-search");
+    } else {
+      $(this).addClass("open-menu");
+      $(".nav").addClass("active");
+      $("body").addClass("overflow");
+    }
+  });
+
+  $(".menu-arr").on("click", function () {
+    $(this).parent().parent().find("ul").first().slideToggle(300);
+    return false;
+  });
+
+  $(".search-open").on("click", function () {
+    //    $('.header').toggleClass('open-search');
+  });
+
+  $(".close-search").on("click", function () {
+    //    $('.header').removeClass('open-search');
+  });
+
+  /*============================*/
+  /* 05 - WINDOW SCROLL */
+  /*============================*/
+
+  $(window).scroll(function () {
+    headerScroll();
+    headerFixed();
+    animateItem();
+  });
+
+  function headerFixed() {
+    if ($(window).scrollTop() >= $(".full-height-slider").height() - 138) {
+      $("header").addClass("fixed");
+    } else {
+      $("header").removeClass("fixed");
+    }
+  }
+
+  function headerScroll() {
+    if ($(window).scrollTop() >= $(".header").height()) {
+      $("header").addClass("scrol");
+    } else {
+      $("header").removeClass("scrol");
+    }
+  }
+
+  $(".up-button").on("click", function () {
+    $("body, html").animate({ scrollTop: "0" });
+    return false;
+  });
+
+  function animateItem() {
+    if ($(".item-animation").length) {
+      $(".item-animation")
+        .not(".animated")
+        .each(function () {
+          if (
+            $(window).scrollTop() >=
+            $(this).offset().top - $(window).height() * 1.1
+          ) {
+            $(this).addClass("animated");
+          }
+        });
+    }
+  }
+
+  /*============================*/
+  /* 06 - ISOTOPE */
+  /*============================*/
+
+  function izotopInit() {
+    if ($(".izotope-container").length) {
+      var $container = $(".izotope-container");
+      $container.isotope({
+        itemSelector: ".item",
+        layoutMode: "masonry",
+        masonry: {
+          columnWidth: ".grid-sizer",
+        },
+      });
+      $(".filter-list li").click(function () {
+        $(".izotope-container").each(function () {
+          $(this).find(".item").removeClass("animated");
+        });
+        $(".filter-list li").removeClass("active");
+        $(this).addClass("active");
+        var filterValue = $(this).attr("data-filter");
+        $container.isotope({ filter: filterValue });
+      });
+    }
+  }
+
+  /*============================*/
+  /* 07 - GOOGLE MAP */
+  /*============================*/
+
+  var marker = [],
+    infowindow = [],
+    map,
+    image = $(".map-wrapper").attr("data-marker");
+
+  function addMarker(location, name, contentstr) {
+    marker[name] = new google.maps.Marker({
+      position: location,
+      map: map,
+      icon: image,
+    });
+    marker[name].setMap(map);
+
+    infowindow[name] = new google.maps.InfoWindow({
+      content: contentstr,
+    });
+
+    google.maps.event.addListener(marker[name], "click", function () {
+      infowindow[name].open(map, marker[name]);
+    });
+  }
+
+  function initialize() {
+    var lat = $("#map-canvas").attr("data-lat");
+    var lng = $("#map-canvas").attr("data-lng");
+    var mapStyle = $("#map-canvas").attr("data-style");
+
+    var myLatlng = new google.maps.LatLng(lat, lng);
+
+    var setZoom = parseInt($("#map-canvas").attr("data-zoom"), 10);
+
+    var styles = "";
+
+    if (mapStyle == "1") {
+      styles = [
+        {
+          featureType: "all",
+          elementType: "labels.text.fill",
+          stylers: [
+            { saturation: 36 },
+            { color: "#000000" },
+            { lightness: 40 },
+          ],
+        },
+        {
+          featureType: "all",
+          elementType: "labels.text.stroke",
+          stylers: [
+            { visibility: "on" },
+            { color: "#000000" },
+            { lightness: 16 },
+          ],
+        },
+        {
+          featureType: "all",
+          elementType: "labels.icon",
+          stylers: [{ visibility: "off" }],
+        },
+        {
+          featureType: "administrative",
+          elementType: "geometry.fill",
+          stylers: [{ color: "#000000" }, { lightness: 20 }],
+        },
+        {
+          featureType: "administrative",
+          elementType: "geometry.stroke",
+          stylers: [{ color: "#000000" }, { lightness: 17 }, { weight: 1.2 }],
+        },
+        {
+          featureType: "landscape",
+          elementType: "geometry",
+          stylers: [{ color: "#000000" }, { lightness: 20 }],
+        },
+        {
+          featureType: "poi",
+          elementType: "geometry",
+          stylers: [{ color: "#000000" }, { lightness: 21 }],
+        },
+        {
+          featureType: "road.highway",
+          elementType: "geometry.fill",
+          stylers: [{ color: "#000000" }, { lightness: 17 }],
+        },
+        {
+          featureType: "road.highway",
+          elementType: "geometry.stroke",
+          stylers: [{ color: "#000000" }, { lightness: 29 }, { weight: 0.2 }],
+        },
+        {
+          featureType: "road.arterial",
+          elementType: "geometry",
+          stylers: [{ color: "#000000" }, { lightness: 18 }],
+        },
+        {
+          featureType: "road.local",
+          elementType: "geometry",
+          stylers: [{ color: "#000000" }, { lightness: 16 }],
+        },
+        {
+          featureType: "transit",
+          elementType: "geometry",
+          stylers: [{ color: "#000000" }, { lightness: 19 }],
+        },
+        {
+          featureType: "water",
+          elementType: "geometry",
+          stylers: [{ color: "#000000" }, { lightness: 17 }],
+        },
+      ];
+    }
+    var styledMap = new google.maps.StyledMapType(styles, {
+      name: "Styled Map",
+    });
+
+    var draggMap;
+    if (!_ismobile) {
+      draggMap = true;
+    } else {
+      draggMap = false;
+    }
+
+    var mapOptions = {
+      zoom: setZoom,
+      disableDefaultUI: false,
+      scrollwheel: false,
+      zoomControl: true,
+      streetViewControl: true,
+      center: myLatlng,
+      draggable: draggMap,
+    };
+    map = new google.maps.Map(
+      document.getElementById("map-canvas"),
+      mapOptions
+    );
+
+    map.mapTypes.set("map_style", styledMap);
+    map.setMapTypeId("map_style");
+
+    $(".addresses-block a").each(function () {
+      var mark_lat = $(this).attr("data-lat");
+      var mark_lng = $(this).attr("data-lng");
+      var this_index = $(".addresses-block a").index(this);
+      var mark_name = "template_marker_" + this_index;
+      var mark_locat = new google.maps.LatLng(mark_lat, mark_lng);
+      var mark_str = $(this).attr("data-string");
+      addMarker(mark_locat, mark_name, mark_str);
+    });
+  }
+
+  /*============================*/
+  /* 08 - VIDEO YOUTUBE - VIMEO */
+  /*============================*/
+
+  $(document).on("click", ".play-button", function () {
+    var videoLink = $(this).attr("data-video"),
+      thisAppend = $(this).closest(".video-open").find(".video-iframe");
+    $(this).closest(".video-open").find(".video-item").addClass("act");
+    $(".video-open").addClass("over");
+    $("<iframe>").attr("src", videoLink).appendTo(thisAppend);
+    return false;
+  });
+
+  $(document).on("click", ".close-video", function () {
+    var videoClose = $(this).parent().find(".video-iframe");
+    $(this).closest(".video-open").find(".video-item").removeClass("act");
+    $(".video-open").removeClass("over");
+    videoClose.find("iframe").remove();
+    return false;
+  });
+
+  /*============================*/
+  /* 09 - ACCORDEON  */
+  /*============================*/
+
+  $(".accordeon-triger").on("click", function () {
+    var $this = $(this),
+      item = $this.closest(".accordeon-item"),
+      list = $this.closest(".accordeon-list"),
+      items = list.find(".accordeon-item"),
+      content = item.find(".accordeon-inner"),
+      otherContent = list.find(".accordeon-inner"),
+      times = 300;
+    if (!item.hasClass("active")) {
+      items.removeClass("active");
+      item.addClass("active");
+      otherContent.stop(true, true).slideUp(times);
+      content.stop(true, true).slideDown(times);
+    } else {
+      item.removeClass("active");
+      content.stop(true, true).slideUp(times);
+    }
+    return false;
+  });
+
+  /*============================*/
+  /* 10 - CLICK AND HOVER  */
+  /*============================*/
+
+  $(".like-item").on("click", function () {
+    $(this).toggleClass("active");
+  });
+
+  $(document).on("click", ".custom-input-number .cin-increment", function (e) {
+    var $input = $(this).siblings(".cin-input"),
+      val = parseInt($input.val()),
+      max = parseInt($input.attr("max")),
+      step = parseInt($input.attr("step"));
+    var temp = val + step;
+    $input.val(temp <= max ? temp : max);
+  });
+  $(document).on("click", ".custom-input-number .cin-decrement", function (e) {
+    var $input = $(this).siblings(".cin-input"),
+      val = parseInt($input.val()),
+      min = parseInt($input.attr("min")),
+      step = parseInt($input.attr("step"));
+    var temp = val - step;
+    $input.val(temp >= min ? temp : min);
+  });
+
+  $(".open-popup").on("click", function () {
+    var indexPopup = $(this).attr("data-open");
+    $(".index-" + indexPopup).addClass("active");
+    $("body").addClass("overflow");
+    return false;
+  });
+
+  $(".close-popup").on("click", function () {
+    $(".popup").removeClass("active");
+    $("body").removeClass("overflow");
+  });
+
+  $(".close-item").on("click", function () {
+    $(this).parent().remove();
+  });
+
+  $(".shop-icon").on("click", function () {
+    $(".shop-card-list").toggleClass("active");
+  });
+
+  $(".close-card-mobile").on("click", function () {
+    $(".shop-card-list").removeClass("active");
+  });
+
+  $(".select-open").on("click", function () {
+    $(this).toggleClass("active").next().slideToggle();
+  });
+
+  if ($(window).width() < 992) {
+    $(".mobile-select ul li").on("click", function () {
+      $(this)
+        .closest(".mobile-select")
+        .find(".select-open .txt")
+        .text($(this).text());
+      $(this)
+        .closest(".mobile-select")
+        .find(".select-open")
+        .removeClass("active");
+      $(this).closest(".mobile-select").find("ul").slideUp(300);
+      return false;
+    });
+  }
+
+  /*============================*/
+  /* 11 - SLIDER RANGE  */
+  /*============================*/
+  $(".slider-range").each(function (index) {
+    var counter = $(this).data("counter");
+    var position = $(this).data("position");
+    var from = parseInt($(this).data("from"), 10);
+    var to = parseInt($(this).data("to"), 10);
+    var min = parseInt($(this).data("min"), 10);
+    var max = parseInt($(this).data("max"), 10);
+    $(this)
+      .find(".range")
+      .attr("id", "slider-range-" + index);
+    $(this)
+      .find(".amount-start")
+      .attr("id", "amount-start-" + index);
+    $(this)
+      .find(".amount-end")
+      .attr("id", "amount-end-" + index);
+    $("#slider-range-" + index).slider({
+      range: true,
+      min: min,
+      max: max,
+      values: [from, to],
+      slide: function (event, ui) {
+        if (position == "start") {
+          $("#amount-start-" + index).text(counter + ui.values[0]);
+          $("#amount-end-" + index).text(counter + ui.values[1]);
+        } else {
+          $("#amount-start-" + index).text(ui.values[0] + counter);
+          $("#amount-end-" + index).text(ui.values[1] + counter);
+        }
+      },
+    });
+    if (position == "start") {
+      $("#amount-start-" + index).text(
+        counter + $("#slider-range-" + index).slider("values", 0)
+      );
+      $("#amount-end-" + index).text(
+        counter + $("#slider-range-" + index).slider("values", 1)
+      );
+    } else {
+      $("#amount-start-" + index).text(
+        $("#slider-range-" + index).slider("values", 0) + counter
+      );
+      $("#amount-end-" + index).text(
+        $("#slider-range-" + index).slider("values", 1) + counter
+      );
+    }
+  });
+
+  /*============================*/
+  /* 12 - COLORPICKER  */
+  /*============================*/
+
+  $(".piker-open").on("click", function () {
+    $(".color-piker").toggleClass("active");
+  });
+
+  /*============================*/
+  /* 13 - TIMER */
+  /*============================*/
+  function initCounter() {
+    if (!$(".countdown").length) return false;
+    $(".countdown")
+      .not(".initialized")
+      .each(function () {
+        $(this)
+          .addClass("initialized")
+          .ClassyCountdown({
+            end: $.now() + parseInt($(this).data("end")),
+            labels: true,
+            style: {
+              element: "",
+              days: {
+                gauge: {
+                  thickness: $(this).data("line"),
+                  fgColor: $(this).data("fgcolor"),
+                  bgColor: $(this).data("bgcolor"),
+                },
+              },
+              hours: {
+                gauge: {
+                  thickness: $(this).data("line"),
+                  fgColor: $(this).data("fgcolor"),
+                  bgColor: $(this).data("bgcolor"),
+                },
+              },
+              minutes: {
+                gauge: {
+                  thickness: $(this).data("line"),
+                  fgColor: $(this).data("fgcolor"),
+                  bgColor: $(this).data("bgcolor"),
+                },
+              },
+              seconds: {
+                gauge: {
+                  thickness: $(this).data("line"),
+                  fgColor: $(this).data("fgcolor"),
+                  bgColor: $(this).data("bgcolor"),
+                },
+              },
+            },
+          });
+      });
+  }
+  initCounter();
+
+  /*============================*/
+  /* 14 - TABS*/
+  /*============================*/
+  $(".item-tabs li").on("click", function () {
+    var indexSlTab = $(".item-tabs li").index(this);
+    $(".item-tabs li").removeClass("active");
+    $(this).addClass("active");
+    $(".tab-container-item").fadeOut(200).removeClass("active");
+    $(".tab-container-item").eq(indexSlTab).fadeIn(200).addClass("active");
+    if (
+      $(".tab-container-item").eq(indexSlTab).find(".swiper-container").length
+    ) {
+      setTimeout(function () {
+        initSwiper();
+      }, 100);
+    }
+    return false;
+  });
+
+  /*============================*/
+  /* 15 - COPLE SWIPER  */
+  /*============================*/
+  $(".controlTopSwiper").on("click", function () {
+    var index = $(this)
+      .closest(".swiper-container")
+      .find(".swiper-slide")
+      .index($(this).parent());
+    swipers[
+      "swiper-" +
+        $(this)
+          .closest(".swipers-wrapper")
+          .find(".swiper-control-top")
+          .attr("id")
+    ].slideTo(index);
+  });
+
+  /*============================*/
+  /* 16 - CHECKOUT  */
+  /*============================*/
+  $(".delivery").on("click", function (e) {
+    var $input = $(this).find("input");
+    $(this).parent().find(".delivery-form").slideToggle(350);
+    if ($input.is(":checked")) {
+      $input.prop("checked", false);
+    } else {
+      $input.prop("checked", true);
+    }
+    e.preventDefault();
+  });
+
+  /*============================*/
+  /* 17 - SHOP MENU FILTER  */
+  /*============================*/
+  $(".filter-open").on("click", function () {
+    $(".menu-filter").toggleClass("active");
+  });
+
+  $(".close-filter").on("click", function () {
+    $(".menu-filter").removeClass("active");
+  });
+
+  /*===========================*/
+  /* 18 - CHOOSE ANIMATION  	*/
+  /*=========================*/
+  $(".choose-animation input").on("change", function (e) {
+    var $value = $("input[name=1]:checked").val();
+    if ($value == "animation") {
+      $("body").removeClass("no-animated");
+    } else {
+      $("body").addClass("no-animated");
+    }
+    e.preventDefault();
+  });
+
+  /*=============================*/
+  /* 19 - GET YEAR AND ADDED IT */
+  /*===========================*/
+
+  $("#date-right").text(getTodaysYear());
+  function getTodaysYear() {
+    var today = new Date();
+    var year = today.getFullYear();
+    return year;
+  }
+
+  /*=====================================*/
+  /* 20 - MAKE DRAGGABLE EQUAL TO FALSE */
+  /*===================================*/
+  $("img").attr("draggable", "false");
+  $("img").attr("loading","lazy");
+
+  /*=====================================*/
+  /* 21 - DISABLE THE RIGHT CLICK       */
+  /*===================================*/
+
+  // $(document).on("contextmenu", function (e) {
+  //   e.preventDefault();
+  // });
+});
