@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=no" />
+        <link rel="shortcut icon" href="img/favfav.png" />
+        <!-- <link rel="shortcut icon" href="img/f-black.png" /> -->
+        <title>elFaleh Pastry</title>
+        <style id="dynamic-css"></style>
+        <style type="text/css">
+            .preloader {
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: #fff;
+                text-align: center;
+                z-index: 6001;
+            }
+
+            .preloader:after {
+                content: "";
+                height: 100%;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .sk-cube-grid {
+                width: 3.857rem;
+                height: 3.857rem;
+                margin: 0 auto;
+                vertical-align: middle;
+                display: inline-block;
+            }
+
+            .sk-cube-grid .sk-cube {
+                width: 33%;
+                height: 33%;
+                background-color: #333;
+                float: left;
+                -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+                animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            }
+
+            .sk-cube-grid .sk-cube1 {
+                -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s;
+            }
+
+            .sk-cube-grid .sk-cube2 {
+                -webkit-animation-delay: 0.3s;
+                animation-delay: 0.3s;
+            }
+
+            .sk-cube-grid .sk-cube3 {
+                -webkit-animation-delay: 0.4s;
+                animation-delay: 0.4s;
+            }
+
+            .sk-cube-grid .sk-cube4 {
+                -webkit-animation-delay: 0.1s;
+                animation-delay: 0.1s;
+            }
+
+            .sk-cube-grid .sk-cube5 {
+                -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s;
+            }
+
+            .sk-cube-grid .sk-cube6 {
+                -webkit-animation-delay: 0.3s;
+                animation-delay: 0.3s;
+            }
+
+            .sk-cube-grid .sk-cube7 {
+                -webkit-animation-delay: 0s;
+                animation-delay: 0s;
+            }
+
+            .sk-cube-grid .sk-cube8 {
+                -webkit-animation-delay: 0.1s;
+                animation-delay: 0.1s;
+            }
+
+            .sk-cube-grid .sk-cube9 {
+                -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s;
+            }
+
+            @-webkit-keyframes sk-cubeGridScaleDelay {
+
+                0%,
+                70%,
+                100% {
+                    -webkit-transform: scale3D(1, 1, 1);
+                    transform: scale3D(1, 1, 1);
+                }
+
+                35% {
+                    -webkit-transform: scale3D(0, 0, 1);
+                    transform: scale3D(0, 0, 1);
+                }
+            }
+
+            @keyframes sk-cubeGridScaleDelay {
+
+                0%,
+                70%,
+                100% {
+                    -webkit-transform: scale3D(1, 1, 1);
+                    transform: scale3D(1, 1, 1);
+                }
+
+                35% {
+                    -webkit-transform: scale3D(0, 0, 1);
+                    transform: scale3D(0, 0, 1);
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="css/font_awsome/css/all.css">
+    </head>
+
+<body class="page-color-style-3 page-style-3">
+
+    <div class="preloader">
+        <div class="sk-cube-grid selected">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+
+
+    <header class="header header-style-3">
+        <div class="navigation flex-align">
+            <a href="index.html" class="logo"><img src="img/w-bg-prfl.png"
+                    style="width: 8vw;margin-top: 1vh;margin-bottom: 1vh;" alt="elfaleh"><img src="img/log2.png"
+                    alt="delice" class="logo-type-2"></a>
+            <div class="burger-menu"><i></i></div>
+            <div class="nav">
+                <div class="nav-align-wrap nav-icons">
+                    <div class="right-block">
+                        <div class="follow">
+                            <a id="facebookIco" target="_blank" href="https://www.facebook.com/CHEF.hamza1">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="10.5"
+                                    viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#ffffff"
+                                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                                </svg>
+                            </a>
+                            <a id="instaIco" href="https://www.instagram.com/elfaleh_pastry/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="17.5"
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#ffffff"
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg>
+                            </a>
+                            <a id="tiktokIco" target="_blank" href="https://www.tiktok.com/@elfalehpastry">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="16.5"
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#ffffff"
+                                        d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                    <nav class="mr-2">
+                        <ul class="header-menu">
+                            <li><a href="pages/menu.html">Menu</a>
+                            </li>
+                            <li><a href="pages/team.html">Team</a></li>
+                                <!-- <ul> -->
+                                    <!-- <li><a href="services.html">Services</a></li> -->
+                                    <!-- <li><a href="team.html">Chefs</a></li> -->
+                                    <!-- <li><a href="gallery-1.html">Gallery</a> -->
+
+                                    <!-- </li> -->
+                                <!-- </ul> -->
+                            </li>
+                            <li><a href="pages/contact.html">Contact</a>
+                            </li>
+                            <li><a href="pages/about.html">About</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+
+        <section class="full-height-slider">
+            <div class="swiper-container full-h animation-2" data-mode="horizontal" data-autoplay="0"
+                data-effect="slide" data-slides-per-view="1" data-loop="0" data-speed="800">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="bg layer" style="background-image: url(img/elfaleh1.jpg)"></div>
+                        <div class="table-view mobile-rel-block">
+                            <div class="table-cell">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-10 col-md-offset-1">
+                                            <div class="main-caption text-center color-type-1">
+                                                <div class="overflow-wrap">
+                                                    <h1 class="title h1">
+                                                        <span>E&nbsp;l&nbsp;F&nbsp;a&nbsp;l&nbsp;e&nbsp;h</span>
+                                                        <span>P&nbsp;a&nbsp;s&nbsp;t&nbsp;r&nbsp;y</span>
+                                                    </h1>
+                                                </div>
+                                                <div class="empty-sm-30 empty-xs-30"></div>
+                                                <div class="overflow-wrap">
+                                                    <img src="img/title_sepp_2.png" alt=""
+                                                        class="color-overlay title-sepp">
+                                                </div>
+                                                <div class="empty-sm-25 empty-xs-25"></div>
+                                                <div class="row">
+                                                    <div class="col-md-8 col-md-offset-2">
+                                                        <div class="overflow-wrap">
+                                                            <div class="simple-text md">
+                                                                <p>Chef Hamzaa El Faleh's passion for baking shines
+                                                                    through in every bite. El Faleh Pastry is poised to
+                                                                    become Tetouan's go-to spot for handcrafted,
+                                                                    unforgettable treats</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="empty-sm-40 empty-xs-35"></div>
+                                                <div class="overflow-wrap">
+                                                    <div class="button-wrap">
+                                                        <a href="#start" class="page-button button-style-4 type-2"><span
+                                                                class="txt">read more</span><i></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="start">
+            <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
+            <div class="container">
+                <div class="row vertical-wrap">
+                    <div class="col-md-6 col-sm-12 col-xs-12 item-animation scroll-type-1">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <img src="img/p1.jpg" alt="" class="full-img">
+                                <div class="empty-sm-30 empty-xs-30"></div>
+                                <img src="img/p2.jpg" alt="" class="full-img">
+                                <div class="empty-lg-0 empty-md-0 empty-sm-30 empty-xs-30"></div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <img src="img/new_york_rolls.jpg" alt="" class="full-img">
+                                <div class="empty-lg-0 empty-md-0 empty-sm-30 empty-xs-30"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="row item-animation scroll-type-1">
+                            <div class="col-lg-10 col-lg-offset-1">
+                                <div class="main-caption text-center">
+                                    <h2 class="h2 title">About us</h2>
+                                    <div class="empty-sm-15 empty-xs-15"></div>
+                                    <img src="img/title_sepp_2.png" alt="" class="color-overlay title-sepp">
+                                    <div class="empty-sm-25 empty-xs-20"></div>
+                                    <div class="simple-text md simple-sub-text">
+                                        <p><b>From exquisite presentation to unparalleled taste, El Faleh elevates
+                                                pastry artistry</b></p>
+                                    </div>
+                                    <div class="empty-sm-30 empty-xs-30"></div>
+                                    <div class="simple-text">
+                                        <p>Allow me to share the heartfelt story of El Faleh Pastry. With dedication and
+                                            love, we craft each pastry to perfection, using only the finest ingredients
+                                            and meticulous craftsmanship. Beyond taste, we strive to create moments of
+                                            joy and celebration with every bite. Our journey is one of continuous growth
+                                            and commitment to excellence. Join us in savoring the magic of El Faleh
+                                            Pastry, where every pastry is a sweet celebration of life</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row vertical-wrap item-animation scroll-type-1">
+                    <div class="empty-sm-30 empty-xs-30"></div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <img src="img/p4.jpg" alt="" class="full-img">
+                        <div class="empty-sm-30 empty-xs-30"></div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <img src="img/p5.jpg" alt="" class="full-img">
+                        <div class="empty-sm-30 empty-xs-30"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="empty-lg-100 empty-md-70 empty-sm-30 empty-xs-30"></div>
+        </section>
+
+        <section class="section" id="items">
+            <div class="container">
+                <div class="row item-animation scroll-type-1">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="main-caption text-center">
+                            <h2 class="h2 title">Our Menu</h2>
+                            <div class="empty-sm-15 empty-xs-15"></div>
+                            <img src="img/title_sepp_2.png" alt="" class="color-overlay title-sepp">
+                            <div class="empty-sm-25 empty-xs-20"></div>
+                            <div class="simple-text md simple-sub-text">
+                                <p><b>From flaky croissants to decadent tarts, we have something to satisfy every craving.  Take a peek at our menu categories below!</b></p>
+                            </div>
+                            <div class="empty-lg-70 empty-md-60 empty-sm-60 empty-xs-40"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-continer text-center item-animation scroll-type-1">
+                    <div class="mobile-select">
+                        <span class="select-open"><span class="txt">CROISSANTS</span>
+                            <img src="img/select-arrow.png" alt="" class="menu-arr">
+                        </span>
+                        <ul class="item-tabs text-center">
+                            <li class="active"><a href="#items" class="link-hover-line">Croissants</a></li>
+                            <li><a href="#items" class="link-hover-line">New York Rolls</a></li>
+                            <li><a href="#items" class="link-hover-line">Les macarons</a></li>
+                            <li><a href="#items" class="link-hover-line">Trompe L'oeil</a></li>
+                            <li><a href="#items" class="link-hover-line">Cheese cake</a></li>
+                        </ul>
+                    </div>
+                    <div class="empty-sm-50 empty-xs-50"></div>
+                    <div class="tab-container-wraps">
+                        <div class="tab-container-item min-h-430">
+                            <div class="swiper-container pagination-mobile-50 slide-gutter-5" data-mode="horizontal"
+                                data-autoplay="0" data-effect="slide" data-slides-per-view="responsive" data-loop="0"
+                                data-speed="800" data-add-slides="4" data-lg-slides="4" data-md-slides="3"
+                                data-sm-slides="2" data-xs-slides="1">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/c1.jpg" alt="" draggable="false">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Croissant
+                                                        Type</a></h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Croissant Descriptionnfo</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">8 dhs</div>
+                                                <span>12g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/c2.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Croissant
+                                                        Type</a></h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Croissant Descriptionnfo</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">7 dhs</div>
+                                                <span>20g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/c3.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Croissant
+                                                        Type</a></h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Croissant Descriptionnfo</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">10 dhs</div>
+                                                <span>12g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/c4.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Croissant
+                                                        Type</a></h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Croissant Descriptionnfo</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">5 dhs</div>
+                                                <span>16g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/r1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Flavor 1</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Roll Descriptionnfo about flavor</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">14 dhs</div>
+                                                <span>50g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pagination swiper-pagination-1 color-type-2"></div>
+                            </div>
+                        </div>
+                        <div class="tab-container-item min-h-430">
+                            <div class="swiper-container pagination-mobile-50 slide-gutter-5" data-mode="horizontal"
+                                data-autoplay="0" data-effect="slide" data-slides-per-view="responsive" data-loop="0"
+                                data-speed="800" data-add-slides="4" data-lg-slides="4" data-md-slides="3"
+                                data-sm-slides="2" data-xs-slides="1">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/r2.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Flavor 2</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Roll Descriptionnfo about flavor</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">14 dhs</div>
+                                                <span>59g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/r3.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Flavor 3</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Roll Descriptionnfo about flavor</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">14 dhs</div>
+                                                <span>50g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/r4.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Flavor 4</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Roll Descriptionnfo about flavor</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">14 dhs</div>
+                                                <span>50g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/r5.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items"
+                                                        class="link-hover-line">Cappuccino</a></h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">$2.99</div>
+                                                <span>15oz</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/home-3/menu_item_9.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Expresso</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">$6.25</div>
+                                                <span>12oz</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pagination swiper-pagination-1 color-type-2"></div>
+                            </div>
+                        </div>
+                        <div class="tab-container-item min-h-430">
+                            <div class="swiper-container pagination-mobile-50 slide-gutter-5" data-mode="horizontal"
+                                data-autoplay="0" data-effect="slide" data-slides-per-view="responsive" data-loop="0"
+                                data-speed="800" data-add-slides="4" data-lg-slides="4" data-md-slides="3"
+                                data-sm-slides="2" data-xs-slides="1">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/m1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Macaroon
+                                                        1</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Macaroon Descriptionnfo about flavor</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">4 dhs</div>
+                                                <span>20g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/m2.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Macaroon
+                                                        2</a></h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Macaroon Descriptionnfo about flavor</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">4 dh</div>
+                                                <span>10g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                <a href="#items">
+                                                    <img src="img/m3.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Macaroon
+                                                        3</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Macaroon Descriptionnfo about flavor</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">4 dhs</div>
+                                                <span>4g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/m4.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Macaroon
+                                                        4</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Macaroon Descriptionnfo about flavor</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">4 dhs</div>
+                                                <span>10g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/m5.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Macaroon
+                                                        5</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Macaroon Descriptionnfo about flavor</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">5 dhs</div>
+                                                <span>11g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/t1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Trompe
+                                                        L'oeil</a></h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Your Description </p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">15 dhs</div>
+                                                <span>80g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pagination swiper-pagination-1 color-type-2"></div>
+                            </div>
+                        </div>
+                        <div class="tab-container-item min-h-430">
+                            <div class="swiper-container pagination-mobile-50 slide-gutter-5" data-mode="horizontal"
+                                data-autoplay="0" data-effect="slide" data-slides-per-view="responsive" data-loop="0"
+                                data-speed="800" data-add-slides="4" data-lg-slides="4" data-md-slides="3"
+                                data-sm-slides="2" data-xs-slides="1">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                <a href="#items">
+                                                    <img src="img/t2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Trompe
+                                                        L'oeil</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Your Description</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">15 dhs</div>
+                                                <span>80g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/t3.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Pistachio</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Pistachio Description</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">25 dhs</div>
+                                                <span>20g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/t4.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Graine De
+                                                        Café</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Graine De Café Description</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">20 dhs</div>
+                                                <span>20g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/t1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Trompe
+                                                        L'oeil</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Trompe L'oeil Description</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">20 dhs</div>
+                                                <span>25g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pagination swiper-pagination-1 color-type-2"></div>
+                            </div>
+                        </div>
+                        <div class="tab-container-item min-h-430">
+
+                            <div class="swiper-container pagination-mobile-50 slide-gutter-5" data-mode="horizontal"
+                                data-autoplay="0" data-effect="slide" data-slides-per-view="responsive" data-loop="0"
+                                data-speed="800" data-add-slides="4" data-lg-slides="4" data-md-slides="3"
+                                data-sm-slides="2" data-xs-slides="1">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/h1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Cheese Cake
+                                                        1</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Cheese Cake Descreption</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">20 dhs</div>
+                                                <span>110g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/h2.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Cheese Cake
+                                                        2</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Cheese Cake Descreption</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">25 dhs</div>
+                                                <span>120g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/h3.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Cheese Cake
+                                                        3</a>
+                                                </h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Cheese Cake Descreption</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">25 dhs</div>
+                                                <span>100g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu-item menu-item-3">
+                                            <div class="image">
+                                                    <img src="img/h4.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <h4 class="h5 caption"><a href="#items" class="link-hover-line">Cheese Cake
+                                                        4</a></h4>
+                                                <div class="empty-sm-5 empty-xs-5"></div>
+                                                <div class="simple-text">
+                                                    <p>Cheese Cake Descreption</p>
+                                                </div>
+                                                <div class="empty-sm-10 empty-xs-10"></div>
+                                                <div class="menu-price title main-col">18 dhs</div>
+                                                <span>120g</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pagination swiper-pagination-1 color-type-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
+        </section>
+
+        <section class="section">
+            <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
+            <div class="bg layer fix" style="background-image: url(img/test.png)"></div>
+            <div class="container">
+                <div class="row item-animation scroll-type-1">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="box-item">
+                            <div class="empty-lg-70 empty-md-60 empty-sm-60 empty-xs-40"></div>
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="main-caption text-center color-type-2">
+                                        <h2 class="h2 title">Our Specials</h2>
+                                        <div class="empty-sm-15 empty-xs-15"></div>
+                                        <img src="img/title_sepp_2.png" alt="" class="color-overlay title-sepp">
+                                        <div class="empty-sm-25 empty-xs-20"></div>
+                                        <div class="simple-text md simple-sub-text">
+                                            <p><b>We're passionate about creating unique and delectable treats.
+                                                    Alongside our classic favorites, we offer a rotating selection of
+                                                    special creations, featuring seasonal ingredients and innovative
+                                                    flavor combinations.</b>
+                                            </p>
+                                        </div>
+                                        <div class="empty-lg-70 empty-md-60 empty-sm-60 empty-xs-40"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-style-1 ul-list">
+                                        <li>
+                                            <div class="img"><img src="img/special_1.jpg" alt=""></div>
+                                            <div class="txt">
+                                                <div class="flex-wrap">
+                                                    <span class="caption">
+                                                        <h4 class="h5"><a href="#items" class="link-hover-line">Pistachio
+                                                                Mud</a>
+                                                            <div class="empty-sm-5 empty-xs-5"></div>
+                                                        </h4>
+                                                    </span><i></i>
+                                                    <b class="title main-col menu-price">25 dhs</b>
+                                                </div>
+                                                <div class="simple-text">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                        eiusmod.</p>
+                                                </div>
+                                            </div>
+                                            <div class="empty-sm-20 empty-xs-20"></div>
+                                        </li>
+                                        <li>
+                                            <div class="img"><img src="img/special_2.jpg" alt=""></div>
+                                            <div class="txt">
+                                                <div class="flex-wrap">
+                                                    <span class="caption">
+                                                        <h4 class="h5"><a href="#items" class="link-hover-line">Trompe L'oeil
+                                                            </a>
+                                                            <div class="empty-sm-5 empty-xs-5"></div>
+                                                        </h4>
+                                                    </span><i></i>
+                                                    <b class="title main-col menu-price">18 dhs</b>
+                                                </div>
+                                                <div class="simple-text">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                        eiusmod.</p>
+                                                </div>
+                                            </div>
+                                            <div class="empty-sm-20 empty-xs-20"></div>
+                                        </li>
+                                        <li>
+                                            <div class="img"><img src="img/special_3.jpg" alt=""></div>
+                                            <div class="txt">
+                                                <div class="flex-wrap">
+                                                    <span class="caption">
+                                                        <h4 class="h5"><a href="#items" class="link-hover-line">Graine De
+                                                                Café</a>
+                                                            <div class="empty-sm-5 empty-xs-5"></div>
+                                                        </h4>
+                                                    </span><i></i>
+                                                    <b class="title main-col menu-price">15 dhs</b>
+                                                </div>
+                                                <div class="simple-text">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                        eiusmod.</p>
+                                                </div>
+                                            </div>
+                                            <div class="empty-sm-20 empty-xs-20"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-style-1 ul-list">
+                                        <li>
+                                            <div class="img"><img src="img/special_4.jpg" alt=""></div>
+                                            <div class="txt">
+                                                <div class="flex-wrap">
+                                                    <span class="caption">
+                                                        <h4 class="h5"><a href="#items" class="link-hover-line"> Cake
+                                                                Chocolate</a>
+                                                            <div class="empty-sm-5 empty-xs-5"></div>
+                                                        </h4>
+                                                    </span><i></i>
+                                                    <b class="title main-col menu-price">20 dhs</b>
+                                                </div>
+                                                <div class="simple-text">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                        eiusmod.</p>
+                                                </div>
+                                            </div>
+                                            <div class="empty-sm-20 empty-xs-20"></div>
+                                        </li>
+                                        <li>
+                                            <div class="img"><img src="img/special_5.jpg" alt=""></div>
+                                            <div class="txt">
+                                                <div class="flex-wrap">
+                                                    <span class="caption">
+                                                        <h4 class="h5"><a href="#items" class="link-hover-line">Cookies</a>
+                                                            <div class="empty-sm-5 empty-xs-5"></div>
+                                                        </h4>
+                                                    </span><i></i>
+                                                    <b class="title main-col menu-price">10 dhs</b>
+                                                </div>
+                                                <div class="simple-text">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                        eiusmod.</p>
+                                                </div>
+                                            </div>
+                                            <div class="empty-sm-20 empty-xs-20"></div>
+                                        </li>
+                                        <li>
+                                            <div class="img"><img src="img/special_6.jpg" alt=""></div>
+                                            <div class="txt">
+                                                <div class="flex-wrap">
+                                                    <span class="caption">
+                                                        <h4 class="h5"><a href="#items" class="link-hover-line">New York
+                                                                Rolls</a>
+                                                            <div class="empty-sm-5 empty-xs-5"></div>
+                                                        </h4>
+                                                    </span><i></i>
+                                                    <b class="title main-col menu-price">14 dhs</b>
+                                                </div>
+                                                <div class="simple-text">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                        eiusmod.</p>
+                                                </div>
+                                            </div>
+                                            <div class="empty-sm-20 empty-xs-20"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="empty-lg-50 empty-md-40 empty-sm-40 empty-xs-20"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
+        </section>
+        <section class="section">
+            <div class="empty-lg-140 empty-md-100 empty-sm-60 empty-xs-60"></div>
+            <div class="bg layer fix" style="background-color: rgba(50, 46, 46, 0.845);"></div>
+            <div class="container">
+                <div class="row item-animation scroll-type-1">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="main-caption text-center color-type-1">
+                            <h2 class="h2 title">Testimonials</h2>
+                            <div class="empty-sm-15 empty-xs-15"></div>
+                            <img src="img/title_sepp_2.png" alt="" class="color-overlay title-sepp">
+                            <div class="empty-sm-25 empty-xs-20"></div>
+                            <div class="simple-text md simple-sub-text">
+                                <p><b>They showcase moments of pure satisfaction and joy from our delighted patrons,
+                                        inspiring us to continue crafting culinary wonders that exceed expectations.</b>
+                                </p>
+                            </div>
+                            <div class="empty-lg-70 empty-md-60 empty-sm-60 empty-xs-40"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row item-animation scroll-type-1">
+                    <div class="col-md-5">
+                        <div class="testimonials-item testi-type-2">
+                            <div class="img">
+                                <img src="img/houria.png" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="simple-text">
+                                    <p>“😍😍 ضرووري نجي نجرب 🔥”</p>
+                                </div>
+                                <div class="empty-sm-15 empty-xs-15"></div>
+                                <h5 class="h5 caption">Hourias Planet</h5>
+                            </div>
+                        </div>
+                        <div class="empty-sm-40 empty-xs-30"></div>
+                        <div class="testimonials-item testi-type-2">
+                            <div class="img">
+                                <img src="img/lenses.png" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="simple-text">
+                                    <p>“تبارك الله عليك، تطوان كان ناقصها هاد الابداع👏”</p>
+                                </div>
+                                <div class="empty-sm-15 empty-xs-15"></div>
+                                <h5 class="h5 caption">Anas Lenses</h5>
+                            </div>
+                        </div>
+                        <div class="empty-sm-40 empty-xs-30"></div>
+                    </div>
+                    <div class="col-md-5 col-md-offset-2">
+                        <div class="testimonials-item testi-type-2">
+                            <div class="img">
+                                <img src="img/hmz.png" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="simple-text">
+                                    <p>“The best ever 😍❤️”</p>
+                                </div>
+                                <div class="empty-sm-15 empty-xs-15"></div>
+                                <h5 class="h5 caption">El Haouari Hamza</h5>
+                            </div>
+                        </div>
+                        <div class="empty-sm-40 empty-xs-30"></div>
+                        <div class="testimonials-item testi-type-2">
+                            <div class="img">
+                                <img src="img/luna.png" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="simple-text">
+                                    <p>“Tu es le meilleur 💪🏻”</p>
+                                </div>
+                                <div class="empty-sm-15 empty-xs-15"></div>
+                                <h5 class="h5 caption">Luna Dolce</h5>
+                            </div>
+                        </div>
+                        <div class="empty-sm-40 empty-xs-30"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="empty-lg-100 empty-md-60 empty-sm-20 empty-xs-30"></div>
+        </section>
+
+        <section class="section" style="">
+            <div class="empty-lg-130 empty-md-100 empty-sm-60 empty-xs-60"></div>
+            <div class="container">
+                <div class="row item-animation scroll-type-1">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="main-caption text-center">
+                            <h2 class="h2 title">What We Offer</h2>
+                            <div class="empty-sm-15 empty-xs-15"></div>
+                            <img src="img/title_sepp_2.png" alt="" class="color-overlay title-sepp">
+                            <div class="empty-sm-25 empty-xs-20"></div>
+                            <div class="simple-text md simple-sub-text">
+                                <p><b>A delectable world of pastries awaits.</b></p>
+                            </div>
+                            <div class="empty-sm-35 empty-xs-30"></div>
+                            <div class="simple-text">
+                                <p>At El Faleh Pastry, we believe in using only the highest quality ingredients to create our pastries.  We bake everything fresh daily, ensuring you experience the pure flavor and delightful textures in every treat.  Come discover the El Faleh difference!</p>
+                            </div>
+                            <div class="empty-lg-70 empty-md-60 empty-sm-60 empty-xs-40"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row item-animation scroll-type-1" style="display: flex; justify-content: space-evenly;">
+
+                    <div class="col-20 sm-col-50">
+                        <div class="text-center main-fill-col">
+                            <?xml version='1.0' encoding='iso-8859-1'?>
+                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="65px" height="65px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 470 470" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                enable-background="new 0 0 470 470">
+                                <g>
+                                    <circle cx="190.864" cy="62.046" r="7.5" />
+                                    <path
+                                        d="m99.366,119.48c-5.194-5.193-12.1-8.054-19.445-8.054s-14.251,2.86-19.445,8.054c-10.723,10.723-10.723,28.17 0,38.893 5.194,5.193 12.1,8.054 19.445,8.054s14.251-2.86 19.445-8.054c10.723-10.723 10.723-28.17 1.42109e-14-38.893zm-10.606,28.286c-2.361,2.361-5.5,3.661-8.839,3.661s-6.478-1.3-8.839-3.661c-4.874-4.874-4.874-12.804 0-17.678 2.361-2.36 5.5-3.661 8.839-3.661s6.478,1.301 8.839,3.661c4.874,4.874 4.874,12.804 0,17.678z" />
+                                    <path
+                                        d="M15,194.432C15,95.493,95.493,15,194.432,15c49.532,0,95.646,19.744,129.848,55.596c2.859,2.998,7.607,3.11,10.604,0.25   c2.997-2.859,3.109-7.606,0.25-10.604c-17.968-18.835-39.121-33.65-62.871-44.036C247.672,5.452,221.486,0,194.432,0   C87.222,0,0,87.222,0,194.432c0,27.054,5.453,53.24,16.206,77.831c10.386,23.75,25.202,44.903,44.037,62.871   c1.452,1.386,3.315,2.073,5.176,2.073c1.979,0,3.954-0.778,5.428-2.323c2.859-2.997,2.747-7.744-0.25-10.604   C34.745,290.078,15,243.964,15,194.432z" />
+                                    <circle cx="230.5" cy="203.182" r="7.5" />
+                                    <circle cx="292.876" cy="297.5" r="7.5" />
+                                    <path
+                                        d="m357.876,203.182c0-26.191-21.309-47.5-47.5-47.5s-47.5,21.309-47.5,47.5 21.309,47.5 47.5,47.5 47.5-21.309 47.5-47.5zm-47.5,32.5c-17.921,0-32.5-14.579-32.5-32.5s14.579-32.5 32.5-32.5 32.5,14.579 32.5,32.5-14.579,32.5-32.5,32.5z" />
+                                    <path
+                                        d="m220.558,300.453c-26.191,0-47.5,21.309-47.5,47.5s21.309,47.5 47.5,47.5 47.5-21.309 47.5-47.5-21.309-47.5-47.5-47.5zm0,80c-17.92,0-32.5-14.579-32.5-32.5s14.58-32.5 32.5-32.5c17.921,0 32.5,14.579 32.5,32.5s-14.579,32.5-32.5,32.5z" />
+                                    <path
+                                        d="m344.146,329.979c-15.163,0-27.5,12.337-27.5,27.5s12.337,27.5 27.5,27.5 27.5-12.337 27.5-27.5-12.337-27.5-27.5-27.5zm0,40c-6.893,0-12.5-5.607-12.5-12.5s5.607-12.5 12.5-12.5 12.5,5.607 12.5,12.5-5.608,12.5-12.5,12.5z" />
+                                    <path
+                                        d="m390.146,258.67c-15.163,0-27.5,12.337-27.5,27.5s12.337,27.5 27.5,27.5 27.5-12.337 27.5-27.5-12.337-27.5-27.5-27.5zm0,40c-6.893,0-12.5-5.607-12.5-12.5s5.607-12.5 12.5-12.5 12.5,5.607 12.5,12.5-5.608,12.5-12.5,12.5z" />
+                                    <path
+                                        d="m188.49,232.479c0-15.163-12.336-27.5-27.5-27.5s-27.5,12.337-27.5,27.5 12.336,27.5 27.5,27.5 27.5-12.336 27.5-27.5zm-27.5,12.5c-6.893,0-12.5-5.607-12.5-12.5s5.607-12.5 12.5-12.5 12.5,5.607 12.5,12.5-5.608,12.5-12.5,12.5z" />
+                                    <path
+                                        d="M275.567,81.136c-107.21,0-194.432,87.222-194.432,194.432C81.136,382.778,168.357,470,275.567,470   C382.778,470,470,382.778,470,275.567C470,168.357,382.778,81.136,275.567,81.136z M275.567,455   c-98.939,0-179.432-80.493-179.432-179.433c0-98.938,80.493-179.432,179.432-179.432C374.507,96.136,455,176.629,455,275.567   C455,374.507,374.507,455,275.567,455z" />
+                                </g>
+                            </svg>
+                            <div class="empty-sm-20 empty-xs-20"></div>
+                            <h5 class="h5">Creative<br> selections</h5>
+                            <div class="empty-lg-0 empty-md-0 empty-sm-30 empty-xs-30"></div>
+                        </div>
+                    </div>
+                    <div class="col-20 sm-col-50">
+                        <div class="text-center main-fill-col">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 496.008 496.008"
+                                style="enable-background:new 0 0 496.008 496.008;" xml:space="preserve" width="65px"
+                                height="65px">
+                                <g>
+                                    <path d="M24.752,224.616l14.496,6.768c10.528-22.56,36.216-51.84,59.36-59.824l-5.216-15.128
+                                C64.896,166.256,36.76,198.888,24.752,224.616z" />
+                                    <path
+                                        d="M496.008,227.992c0.008-25.072-17.568-54.608-48.224-81.024
+                                c-27.456-23.656-58.736-38.952-79.728-38.968c-2.968-4.128-6.272-8.152-10.048-12.016C331.856,69.264,288.688,52,248.008,52
+                                c-40.688,0-83.856,17.264-110,43.984c-3.776,3.864-7.08,7.896-10.056,12.016c-20.992,0.024-52.28,15.312-79.728,38.968
+                                C17.576,173.384,0,202.912,0,227.992c0.008,12.104,2.52,22.72,7.48,31.76c-4.512,11.8-7.472,33.4-7.472,48.248
+                                c0,92.776,42.96,136,72,136c21.008,0,32-20.128,32-40c0-40.496,17.536-57.64,24.656-62.936c5.208,2.208,11.088,3.976,18.288,3.976
+                                c6.872,0,14.928-1.6,24.704-5.928l28.272-14.48C210.544,336.92,224.424,348,240.008,348h16c15.568,0,29.448-11.088,40.072-23.368
+                                l28.696,14.68c9.504,4.208,17.408,5.768,24.176,5.768c7.224,0,13.136-1.784,18.392-4.008c7.176,5.336,24.664,22.488,24.664,62.936
+                                c0,19.872,10.992,40,32,40c29.04,0,72-43.224,72-136c0-14.832-2.96-36.448-7.472-48.264
+                                C493.488,250.704,496.008,240.088,496.008,227.992z M88.008,404c0,8.304-3.344,24-16,24c-18.912,0-56-36.232-56-120
+                                c0-11.096,1.664-23.816,3.744-33.184c10.664,8.592,68.04,43.584,93.752,58.328C102.76,343.504,88.008,364.816,88.008,404z
+                                 M164.776,324.68c-17.52,7.744-25.896,3.688-33.288,0.12c-13.984-6.752-96.016-57.136-102.072-62.696
+                                C20.4,253.832,16.008,242.672,16,227.992c0-20.12,15.952-45.872,42.672-68.904c19.784-17.04,42.544-29.696,59.4-33.656
+                                c-4.144,9.896-6.184,20.232-5.952,30.752c0.168,7.248,4.96,27.856,8.736,35.4c16.92,33.832,43.256,77.936,64.32,112.576
+                                c1.416,2.328,3.064,4.896,4.88,7.568L164.776,324.68z M256.008,332h-16c-12.024,0-27.408-13.512-41.168-36.16
+                                c-20.896-34.376-47.024-78.112-63.68-111.424c-2.632-5.256-6.936-23.504-7.048-28.6c-0.384-17.168,6.992-33.992,21.336-48.648
+                                C172.728,83.376,211.416,68,248.008,68s75.272,15.376,98.544,39.168c14.344,14.664,21.72,31.488,21.336,48.656
+                                c-0.104,5.096-4.4,23.328-7.04,28.592c-16.592,33.184-42.752,76.984-63.68,111.424C283.408,318.488,268.016,332,256.008,332z
+                                 M331.656,324.88l-25.704-13.16c1.824-2.664,3.472-5.232,4.888-7.568c21.096-34.704,47.464-78.864,64.32-112.576
+                                c3.784-7.552,8.568-28.168,8.728-35.4c0.232-10.52-1.816-20.856-5.96-30.752c16.856,3.96,39.624,16.616,59.4,33.664
+                                c26.728,23.032,42.68,48.792,42.672,68.904c0,14.672-4.384,25.832-13.416,34.12c-6.056,5.56-88.088,55.944-102.064,62.688
+                                C357.128,328.376,348.76,332.432,331.656,324.88z M424.008,428c-12.656,0-16-15.696-16-24c0-39.192-14.752-60.496-25.496-70.864
+                                c25.72-14.736,83.088-49.728,93.752-58.32c2.08,9.384,3.744,22.104,3.744,33.184C480.008,391.768,442.92,428,424.008,428z" />
+                                    <rect x="363.735" y="276.01"
+                                        transform="matrix(-0.8682 0.4961 -0.4961 -0.8682 880.6824 334.1463)"
+                                        width="64.476" height="15.999" />
+                                </g>
+                                <g>
+                                    <rect x="216" y="92" width="16" height="16" />
+                                    <rect x="248" y="108" width="16" height="16" />
+                                    <rect x="280" y="92" width="16" height="16" />
+                                    <rect x="200" y="124" width="16" height="16" />
+                                    <rect x="168" y="140" width="16" height="16" />
+                                    <rect x="232" y="140" width="16" height="16" />
+                                    <rect x="264" y="156" width="16" height="16" />
+                                    <rect x="280" y="124" width="16" height="16" />
+                                    <rect x="312" y="108" width="16" height="16" />
+                                    <rect x="200" y="172" width="16" height="16" />
+                                </g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                            </svg>
+                            <div class="empty-sm-20 empty-xs-20"></div>
+                            <h5 class="h5">Large selection<br> of sweets</h5>
+                            <div class="empty-lg-0 empty-md-0 empty-sm-30 empty-xs-30"></div>
+                        </div>
+                    </div>
+                    <div class="col-20 sm-col-50">
+                        <div class="text-center main-fill-col">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463 463"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 463 463"
+                                width="65px" height="65px">
+                                <g>
+                                    <path
+                                        d="m439.5,376h-8.5v-128.5c0-21.78-17.72-39.5-39.5-39.5h-8.5v-128.5c0-21.78-17.72-39.5-39.5-39.5h-224c-21.78,0-39.5,17.72-39.5,39.5v128.5h-8.5c-21.78,0-39.5,17.72-39.5,39.5v128.5h-8.5c-12.958,0-23.5,10.542-23.5,23.5s10.542,23.5 23.5,23.5h416c12.958,0 23.5-10.542 23.5-23.5s-10.542-23.5-23.5-23.5zm-320-321h224c13.509,0 24.5,10.99 24.5,24.5 0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-13.51 10.991-24.5 24.5-24.5zm-24.5,136h168.5c4.142,0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-168.5v-69.681c4.802,2.965 10.454,4.681 16.5,4.681 9.607,0 18.217-4.328 24-11.131 5.783,6.803 14.393,11.131 24,11.131s18.217-4.328 24-11.131c5.783,6.803 14.393,11.131 24,11.131s18.217-4.328 24-11.131c5.783,6.803 14.393,11.131 24,11.131s18.217-4.328 24-11.131c5.783,6.803 14.393,11.131 24,11.131s18.217-4.328 24-11.131c5.783,6.803 14.393,11.131 24,11.131 6.046,0 11.698-1.716 16.5-4.681v69.681h-24.497c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5 7.5,7.5h24.497v17h-273v-17zm-23.5,32h320c13.509,0 24.5,10.99 24.5,24.5 0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5c0,9.098-7.402,16.5-16.5,16.5s-16.5-7.402-16.5-16.5c0-13.51 10.991-24.5 24.5-24.5zm-24.5,136h264.5c4.142,0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-264.5v-69.681c4.802,2.965 10.454,4.681 16.5,4.681 9.607,0 18.217-4.328 24-11.131 5.783,6.803 14.393,11.131 24,11.131s18.217-4.328 24-11.131c5.783,6.803 14.393,11.131 24,11.131s18.217-4.328 24-11.131c5.783,6.803 14.393,11.131 24,11.131s18.217-4.328 24-11.131c5.783,6.803 14.393,11.131 24,11.131s18.217-4.328 24-11.131c5.783,6.803 14.393,11.131 24,11.131s18.217-4.328 24-11.131c5.783,6.803 14.393,11.131 24,11.131s18.217-4.328 24-11.131c5.783,6.803 14.393,11.131 24,11.131 6.046,0 11.698-1.716 16.5-4.681v69.681h-24.497c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5 7.5,7.5h24.497v17h-369v-17zm392.5,49h-416c-4.687,0-8.5-3.813-8.5-8.5s3.813-8.5 8.5-8.5h416c4.687,0 8.5,3.813 8.5,8.5s-3.813,8.5-8.5,8.5z" />
+                                    <path
+                                        d="m359.498,344h-15.999c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5 7.5,7.5h15.999c4.142,0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m311.498,176h-15.999c-4.142,0-7.5,3.357-7.5,7.5s3.358,7.5 7.5,7.5h15.999c4.142,0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m207.5,128c-4.142,0-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5s7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m255.5,128c-4.142,0-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5s7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m303.5,151c4.142,0 7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5z" />
+                                    <path
+                                        d="m351.5,151c4.142,0 7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5z" />
+                                    <path
+                                        d="m111.5,128c-4.142,0-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5s7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m159.5,128c-4.142,0-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5s7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m207.5,296c-4.142,0-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5s7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m255.5,296c-4.142,0-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5s7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m303.5,296c-4.142,0-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5s7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m351.5,319c4.142,0 7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5z" />
+                                    <path
+                                        d="m399.5,319c4.142,0 7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5z" />
+                                    <path
+                                        d="m63.5,296c-4.142,0-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5s7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m111.5,296c-4.142,0-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5s7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5z" />
+                                    <path
+                                        d="m159.5,296c-4.142,0-7.5,3.357-7.5,7.5v8c0,4.143 3.358,7.5 7.5,7.5s7.5-3.357 7.5-7.5v-8c0-4.143-3.358-7.5-7.5-7.5z" />
+                                </g>
+                            </svg>
+                            <div class="empty-sm-20 empty-xs-20"></div>
+                            <h5 class="h5">Amazingly Tasty<br> Dessert</h5>
+                            <div class="empty-lg-0 empty-md-0 empty-sm-30 empty-xs-30"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="empty-lg-100 empty-md-70 empty-sm-30 empty-xs-30"></div>
+        </section>
+
+        <section class="section">
+            <div class="container-fluid no-padd no-padd-sm">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-4">
+                        <div class="menu-item menu-item-2 color-type-1">
+                            <div class="image hover-zoom">
+                                <img src="img/f-white.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4">
+                        <div class="menu-item menu-item-2 color-type-1">
+                            <div class="image hover-zoom">
+                                <img src="img/r.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4">
+                        <div class="menu-item menu-item-2 color-type-1">
+                            <div class="image hover-zoom">
+                                <img src="img/f-white.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4">
+                        <div class="menu-item menu-item-2 color-type-1">
+                            <div class="image hover-zoom">
+                                <img src="img/r.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4">
+                        <div class="menu-item menu-item-2 color-type-1">
+                            <div class="image hover-zoom">
+                                <img src="img/f-white.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-4">
+                        <div class="menu-item menu-item-2 color-type-1">
+                            <div class="image hover-zoom">
+                                <img src="img/l.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="footer footer-style-1 type-3">
+        <div class="empty-sm-60 empty-xs-40"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="footer-item">
+                        <img src="img/footer-ig.png" alt="">
+                        <div class="empty-sm-15 empty-xs-15"></div>
+                        <div class="simple-text">
+                            <p>Indulge in Sweet Delights at El Faleh Pastry! Crafted with passion using only the finest ingredients, our delectable pastries and treats are sure to tantalize your taste buds.</p>
+                        </div>
+                        <div class="empty-sm-20 empty-xs-20"></div>
+                        <ul class="list-style-2 ul-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    version="1.1" x="0px" y="0px" width="16px" height="16px"
+                                    viewBox="0 0 348.077 348.077" style="enable-background:new 0 0 348.077 348.077;"
+                                    xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M340.273,275.083l-53.755-53.761c-10.707-10.664-28.438-10.34-39.518,0.744l-27.082,27.076     c-1.711-0.943-3.482-1.928-5.344-2.973c-17.102-9.476-40.509-22.464-65.14-47.113c-24.704-24.701-37.704-48.144-47.209-65.257     c-1.003-1.813-1.964-3.561-2.913-5.221l18.176-18.149l8.936-8.947c11.097-11.1,11.403-28.826,0.721-39.521L73.39,8.194     C62.708-2.486,44.969-2.162,33.872,8.938l-15.15,15.237l0.414,0.411c-5.08,6.482-9.325,13.958-12.484,22.02     C3.74,54.28,1.927,61.603,1.098,68.941C-6,127.785,20.89,181.564,93.866,254.541c100.875,100.868,182.167,93.248,185.674,92.876     c7.638-0.913,14.958-2.738,22.397-5.627c7.992-3.122,15.463-7.361,21.941-12.43l0.331,0.294l15.348-15.029     C350.631,303.527,350.95,285.795,340.273,275.083z"
+                                                    fill="#898989" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                </svg>
+                                <a href="tel:" class="link-hover"><b>Tel:</b>+212 6 70 17 32 77</a>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    version="1.1" x="0px" y="0px" width="16px" height="16px"
+                                    viewBox="0 0 511.626 511.627" style="enable-background:new 0 0 511.626 511.627;"
+                                    xml:space="preserve">
+                                    <g>
+                                        <path
+                                            d="M498.208,68.235c-8.945-8.947-19.701-13.418-32.261-13.418H45.682c-12.562,0-23.318,4.471-32.264,13.418   C4.471,77.18,0,87.935,0,100.499v310.633c0,12.566,4.471,23.312,13.418,32.257c8.945,8.953,19.701,13.422,32.264,13.422h420.266   c12.56,0,23.315-4.469,32.261-13.422c8.949-8.945,13.418-19.697,13.418-32.257V100.499   C511.626,87.935,507.158,77.18,498.208,68.235z M475.078,411.125c0,2.475-0.903,4.616-2.714,6.424   c-1.81,1.81-3.949,2.706-6.42,2.706H45.679c-2.474,0-4.616-0.896-6.423-2.706c-1.809-1.808-2.712-3.949-2.712-6.424V191.858   c6.09,6.852,12.657,13.134,19.7,18.843c51.012,39.209,91.553,71.374,121.627,96.5c9.707,8.186,17.607,14.561,23.697,19.13   c6.09,4.571,14.322,9.185,24.694,13.846c10.373,4.668,20.129,6.991,29.265,6.991h0.287h0.284c9.134,0,18.894-2.323,29.263-6.991   c10.376-4.661,18.613-9.274,24.701-13.846c6.089-4.569,13.99-10.944,23.698-19.13c30.074-25.126,70.61-57.291,121.624-96.5   c7.043-5.708,13.613-11.991,19.694-18.843V411.125L475.078,411.125z M475.078,107.92v3.14c0,11.229-4.421,23.745-13.271,37.543   c-8.851,13.798-18.419,24.792-28.691,32.974c-36.74,28.936-74.897,59.101-114.495,90.506c-1.14,0.951-4.474,3.757-9.996,8.418   c-5.514,4.668-9.894,8.241-13.131,10.712c-3.241,2.478-7.471,5.475-12.703,8.993c-5.236,3.518-10.041,6.14-14.418,7.851   c-4.377,1.707-8.47,2.562-12.275,2.562h-0.284h-0.287c-3.806,0-7.895-0.855-12.275-2.562c-4.377-1.711-9.185-4.333-14.417-7.851   c-5.231-3.519-9.467-6.516-12.703-8.993c-3.234-2.471-7.614-6.044-13.132-10.712c-5.52-4.661-8.854-7.467-9.995-8.418   c-39.589-31.406-77.75-61.57-114.487-90.506c-27.981-22.076-41.969-49.106-41.969-81.083c0-2.472,0.903-4.615,2.712-6.421   c1.809-1.809,3.949-2.714,6.423-2.714h420.266c1.52,0.855,2.854,1.093,3.997,0.715c1.143-0.385,1.998,0.331,2.566,2.138   c0.571,1.809,1.095,2.664,1.57,2.57c0.477-0.096,0.764,1.093,0.859,3.571c0.089,2.473,0.137,3.718,0.137,3.718V107.92   L475.078,107.92z"
+                                            fill="#898989" />
+                                    </g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                </svg>
+                                <a href="mailto:" class="link-hover"><b>Email:</b> elfaleh.pastry@mail.com</a>
+                            </li>
+                            <div class="empty-sm-10 empty-xs-10"></div>
+                        </ul>
+                        <ul class="list-style-2 ul-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    version="1.1" x="0px" y="0px" viewBox="0 0 80 80"
+                                    style="enable-background:new 0 0 80 80;" xml:space="preserve" width="16px"
+                                    height="16px">
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M40,0C26.191,0,15,11.194,15,25c0,23.87,25,55,25,55s25-31.13,25-55C65,11.194,53.807,0,40,0z     M40,38.8c-7.457,0-13.5-6.044-13.5-13.5S32.543,11.8,40,11.8c7.455,0,13.5,6.044,13.5,13.5S47.455,38.8,40,38.8z"
+                                                fill="#898989" />
+                                        </g>
+                                    </g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                </svg>
+                                <span><b>Address:</b> N130 Av. Mohamed El Harrak,</span>
+                            </li>
+                            <li> Tetouan, Morocco</li>
+                        </ul>
+                        <div class="empty-sm-20 empty-xs-20"></div>
+                        <div class="follow follow-style-2 sm">
+                            <a id="facebookFootIco"  target="_blank" href="https://www.facebook.com/CHEF.hamza1">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="10.5"
+                                    viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#ffffff"
+                                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                                </svg>
+                            </a>
+                            <a id="instaFootIco" href="https://www.instagram.com/elfaleh_pastry/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="17.5"
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#ffffff"
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg>
+                            </a>
+                            <a id="tiktokFootIco" target="_blank" href="https://www.tiktok.com/@elfalehpastry">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="16.5"
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#ffffff"
+                                        d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="empty-sm-30 empty-xs-30"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright text-center">
+            <div class="container">
+                <span>© <span id="date-right"> </span> All Rights Reserved. Development by <a href="http://awaliat.com/" target="_blank">أوليات</a></span>
+            </div>
+            <div class="empty-sm-50 empty-xs-40"></div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jscolor.min.js"></script>
+    <script src="js/jquery.knob.js"></script>
+    <script src="js/jquery.throttle.js"></script>
+    <script src="js/jquery.classycountdown.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/color.picker.js"></script>
+
+</body>
+
+</html>
