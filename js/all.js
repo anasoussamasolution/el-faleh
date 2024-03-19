@@ -880,19 +880,32 @@ jQuery(function ($) {
   .then(response => {
     if (!response.ok) {
       // throw new Error('response is : ', response.status);
-      // console.log(response);
-
-      if (response.status == 400){
-        window.location.href = "https://awaliat.com/";
+      if (response.status === 400) {
+        // window.location.href = data.url
+        console.log('response : ' ,response);
+  
       }
-
     }
     return response.text();
   })
   .then(data => {
+    let result = JSON.parse(data);
+    let real_name = $('.container>span>a')
+    // Store the initial href value
+    var initialHref = real_name.attr("href");
+    // Store the initial text
+    var initialText = real_name.text();
     // Process the data as needed
+    if (initialHref !== result.url || initialText !== result.name) {
+      window.location.href = data.url
+
+    }
+
   })
   .catch(error => {
+    console.error(error);
   });
+
+
 
 });

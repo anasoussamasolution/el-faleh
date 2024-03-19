@@ -346,6 +346,9 @@ div[class*="empty-"] {
   .margin-xs-top-20{
     margin-top: 20px;
   }
+  .margin-top-adabt{
+    margin-top: -30px;
+  }
 }
 @media (min-width: 768px) {
   .empty-sm-0 {
@@ -408,6 +411,9 @@ div[class*="empty-"] {
   .empty-sm-200 {
     height: 200px;
   }
+  .margin-top-adabt{
+    margin-top: 50px;
+  }
 }
 @media (min-width: 992px) {
   .empty-md-0 {
@@ -460,6 +466,9 @@ div[class*="empty-"] {
   }
   .empty-md-200 {
     height: 200px;
+  }
+  .margin-top-adabt{
+    margin-top: 101px;
   }
 }
 @media (min-width: 1200px) {
@@ -537,6 +546,9 @@ div[class*="empty-"] {
   }
   .empty-lg-130 {
     height: 130px;
+  }
+  .margin-top-adabt{
+    margin-top: 120px;
   }
 }
 @media (min-width: 1400px) {
@@ -617,6 +629,9 @@ div[class*="empty-"] {
   }
   .empty-lgx-130 {
     height: 130px;
+  }
+  .margin-top-adabt{
+    margin-top: 120px;
   }
 }
 
@@ -4921,7 +4936,7 @@ div[class*="empty-"] {
 
 select.input-field {
   font-weight: 700;
-  background: url(../img/select-arrow.png) no-repeat;
+  background: url(../img/select-arrow.webp) no-repeat;
   background-position: top 21px right 21px;
   background-size: 8px 6px;
 }
@@ -8045,7 +8060,7 @@ body.overflow {
 }
 select.input-field.type-2 {
   font-weight: 700;
-  background: url(../img/select-arrow-2.png) no-repeat;
+  background: url(../img/select-arrow-2.webp) no-repeat;
   background-position: top 9px right 1px;
   background-size: 12px 6px;
   cursor: pointer;
@@ -8742,7 +8757,7 @@ select.input-field.type-2 {
   width: 32px;
   height: 32px;
   background-size: 32px 32px;
-  background-image: url(../img/logo-envato-icon.png);
+  background-image: url(../img/logo-envato-icon.webp);
   content: "";
 }
 .popup-pulse span {

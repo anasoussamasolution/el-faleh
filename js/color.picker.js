@@ -31,7 +31,7 @@ $(function(){
                 context.fillStyle = color;
                 context.fillRect(0, 0, width, height);
                 context.globalAlpha = 1.0;
-                return canvas.toDataURL("image/png", 1);
+                return canvas.toDataURL("image/webp", 1);
          };
 
 
